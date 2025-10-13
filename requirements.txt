@@ -1,2 +1,7 @@
 pandas
 numpy
+ 
+# HTML parsing extras used by pandas.read_html and the fetcher
+lxml
+html5lib
+beautifulsoup4
