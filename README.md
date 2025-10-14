@@ -1,35 +1,85 @@
-# PrizePicks Correlation ML
+# 🏈 PrizePicks Correlation ML
 
-This repository contains code and data resources for exploring correlations in PrizePicks projections across multiple sports. The project aims to collect historical player statistics and reference data to build correlation models, analysis scripts, and simple ML experiments.
+**Author:** Archange Kra-Bassa, Natesan Rajesh 
+**Course:** CS 4220 / 6235 – High-Performance Computing / RTES @ Georgia Tech  
+**Semester:** Fall 2025  
 
-Data sources
+![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-orange)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-yellow)
+![Status](https://img.shields.io/badge/Project--Status-Active-brightgreen)
 
-- https://www.pro-football-reference.com/
-- https://www.basketball-reference.com/
-- https://www.baseball-reference.com/
-- https://www.sports-reference.com/cfb/
-- https://fbref.com/en/
-- https://developer.sportsdata.io/nba
-- https://developer.sportsdata.io/nfl
+---
 
-Getting started
+## 📘 Overview
 
-1. Create a Python virtual environment and activate it.
-2. Install dependencies:
+**PrizePicks Correlation ML** is a data-driven sports-analytics pipeline that studies **statistical dependencies between player performances** to improve prediction accuracy for daily-fantasy and prop-betting entries.  
 
-   pip install -r requirements.txt
+It builds a **machine-learning correlation engine** that measures how one player’s output (e.g., a QB’s passing yards) affects another’s (e.g., a WR’s receiving yards).  
+By quantifying these links, the system generates smarter pick combinations and runs simulations to maximize expected value.
 
-3. Run the placeholder script to verify the environment:
+---
 
-   python scripts/placeholder.py
+## 🎯 Project Objectives
 
-Project layout
+1. **Correlation Engine** – Compute covariance / correlation between player outcomes across teams & seasons.  
+2. **Data Pipeline** – Scrape + pre-process historical player stats and PrizePicks projections.  
+3. **Modeling Framework** – Implement baseline + ML-based estimators (Pearson, Spearman, Ridge Regression, Multivariate Regression).  
+4. **Simulation Layer** – Evaluate entry performance under varying correlation thresholds.  
+5. **Visualization Suite** – Heatmaps, regression plots, calibration curves, and model diagnostics.
 
-- `scripts/` - small utility and experiment scripts
-- `data/` - reference links and raw datasets
-- `requirements.txt` - Python dependencies
-- `.gitignore` - recommended ignores for Python projects
+---
 
-Notes
+## 🧩 Repository Structure
+prizepicks-correlation-ml/
+│
+├── data/
+│ ├── samples/ # Demo datasets (team, QB, WR logs)
+│ └── mapping/ # Player ID mappings (future expansion)
+│
+├── scripts/
+│ ├── fetch_pfr_nfl.py # Fetch team/player data from PFR
+│ ├── build_datasets_nfl.py # Clean + merge data into features
+│ ├── model_baseline.py # Correlation + Ridge Regression model
+│ ├── metrics.py # Calibration + evaluation utilities
+│ └── plots_report.py # Generates all visualizations
+│
+├── requirements.txt # Python dependencies
+├── checkpoint1_summary.md # Project progress report
+└── README.md # You’re here
+---
 
-This repository is a starter scaffold. Add datasets under `data/` and scripts under `scripts/` as you build the analysis and ML pipelines.
+## ⚙️ Setup & Usage
+
+### 1️⃣ Install dependencies
+```bash
+python -m pip install -r requirements.txt
+
+2️⃣ Fetch + build demo data
+python -m scripts.fetch_pfr_nfl
+python -m scripts.build_datasets_nfl
+
+3️⃣ Train baseline model + generate plots
+python -m scripts.model_baseline
+
+Outputs →
+data/samples/nfl_features.csv – merged dataset
+data/cache/plots/ – correlation heatmap, residual histogram, calibration curve
+Console metrics: MAE / R² / sample predictions
+
+📚 Data Sources
+Pro-Football-Reference
+Basketball-Reference
+SportsData.io API (NFL/NBA)
+FBRef (Soccer)
+Sports-Reference CFB
+
+🧠 Skills & Learning
+Domain	Key Takeaways
+Data Engineering	Automated HTML table parsing (pandas.read_html, BeautifulSoup).
+Statistical Modeling	Pearson/Spearman correlations and Ridge Regression models.
+Sports Analytics	Feature engineering for player synergies and game context.
+Visualization	Clear interpretation through Matplotlib & Seaborn plots.
+
+
+
