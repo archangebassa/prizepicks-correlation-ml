@@ -1,0 +1,4910 @@
+[
+  {
+    "id": "6076f9eab496770efc0ab7095b27c122",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-10-17T00:16:00Z",
+    "home_team": "Cincinnati Bengals",
+    "away_team": "Pittsburgh Steelers",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2025-10-14T05:40:35Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:35Z",
+            "outcomes": [
+              {
+                "name": "Cincinnati Bengals",
+                "price": 1.93,
+                "point": 5.5
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.89,
+                "point": -5.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:35Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 42.5
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 42.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2025-10-14T05:40:55Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:55Z",
+            "outcomes": [
+              {
+                "name": "Cincinnati Bengals",
+                "price": 1.91,
+                "point": 5.5
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.91,
+                "point": -5.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:55Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 42.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 42.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2025-10-14T05:40:26Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:26Z",
+            "outcomes": [
+              {
+                "name": "Cincinnati Bengals",
+                "price": 1.91,
+                "point": 5.5
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.91,
+                "point": -5.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:26Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 42.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 42.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-10-14T05:40:56Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:56Z",
+            "outcomes": [
+              {
+                "name": "Cincinnati Bengals",
+                "price": 1.96,
+                "point": 5.5
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.85,
+                "point": -5.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:56Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.95,
+                "point": 42.5
+              },
+              {
+                "name": "Under",
+                "price": 1.87,
+                "point": 42.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2025-10-14T05:40:36Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:36Z",
+            "outcomes": [
+              {
+                "name": "Cincinnati Bengals",
+                "price": 1.91,
+                "point": 5.5
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.91,
+                "point": -5.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:36Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 42.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 42.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2025-10-14T05:41:05Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:41:05Z",
+            "outcomes": [
+              {
+                "name": "Cincinnati Bengals",
+                "price": 1.97,
+                "point": 5.5
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.93,
+                "point": -5.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:41:05Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 42.5
+              },
+              {
+                "name": "Under",
+                "price": 2.0,
+                "point": 42.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2025-10-14T05:39:55Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:39:55Z",
+            "outcomes": [
+              {
+                "name": "Cincinnati Bengals",
+                "price": 1.93,
+                "point": 5.5
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.89,
+                "point": -5.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:39:55Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.85,
+                "point": 42.5
+              },
+              {
+                "name": "Under",
+                "price": 1.97,
+                "point": 42.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2025-10-14T05:40:16Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:16Z",
+            "outcomes": [
+              {
+                "name": "Cincinnati Bengals",
+                "price": 1.88,
+                "point": 5.5
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.89,
+                "point": -5.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:16Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.89,
+                "point": 42.5
+              },
+              {
+                "name": "Under",
+                "price": 1.88,
+                "point": 42.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2025-10-14T05:40:48Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:48Z",
+            "outcomes": [
+              {
+                "name": "Cincinnati Bengals",
+                "price": 1.95,
+                "point": 5.5
+              },
+              {
+                "name": "Pittsburgh Steelers",
+                "price": 1.87,
+                "point": -5.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:48Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.95,
+                "point": 43.0
+              },
+              {
+                "name": "Under",
+                "price": 1.87,
+                "point": 43.0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "79de65f1b97c9145ebdcb019eb486500",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-10-19T13:31:00Z",
+    "home_team": "Jacksonville Jaguars",
+    "away_team": "Los Angeles Rams",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2025-10-14T05:40:35Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:35Z",
+            "outcomes": [
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 1.95,
+                "point": 3.0
+              },
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.87,
+                "point": -3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:35Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.95,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": 1.87,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-10-14T05:40:56Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:56Z",
+            "outcomes": [
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 1.87,
+                "point": 3.0
+              },
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.95,
+                "point": -3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:56Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2025-10-14T05:40:36Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:35Z",
+            "outcomes": [
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 1.83,
+                "point": 3.0
+              },
+              {
+                "name": "Los Angeles Rams",
+                "price": 2.0,
+                "point": -3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:35Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2025-10-14T05:40:55Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:55Z",
+            "outcomes": [
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 1.85,
+                "point": 3.0
+              },
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.98,
+                "point": -3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:55Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2025-10-14T05:40:26Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:26Z",
+            "outcomes": [
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 1.83,
+                "point": 3.0
+              },
+              {
+                "name": "Los Angeles Rams",
+                "price": 2.0,
+                "point": -3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:26Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2025-10-14T05:40:48Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:48Z",
+            "outcomes": [
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 1.83,
+                "point": 3.0
+              },
+              {
+                "name": "Los Angeles Rams",
+                "price": 2.0,
+                "point": -3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:48Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2025-10-14T05:41:05Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:41:05Z",
+            "outcomes": [
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 1.86,
+                "point": 3.0
+              },
+              {
+                "name": "Los Angeles Rams",
+                "price": 2.05,
+                "point": -3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:41:05Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.98,
+                "point": 45.0
+              },
+              {
+                "name": "Under",
+                "price": 1.88,
+                "point": 45.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2025-10-14T05:39:55Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:39:55Z",
+            "outcomes": [
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 1.83,
+                "point": 3.0
+              },
+              {
+                "name": "Los Angeles Rams",
+                "price": 2.0,
+                "point": -3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:39:55Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.95,
+                "point": 45.0
+              },
+              {
+                "name": "Under",
+                "price": 1.87,
+                "point": 45.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2025-10-14T05:40:16Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:16Z",
+            "outcomes": [
+              {
+                "name": "Jacksonville Jaguars",
+                "price": 1.87,
+                "point": 3.0
+              },
+              {
+                "name": "Los Angeles Rams",
+                "price": 1.91,
+                "point": -3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:16Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.88,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "8f06a4b503cc7309cb0df4a8b67f9930",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-10-19T17:00:00Z",
+    "home_team": "Chicago Bears",
+    "away_team": "New Orleans Saints",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2025-10-14T05:40:35Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:35Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.91,
+                "point": -5.5
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 1.91,
+                "point": 5.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:35Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 46.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 46.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-10-14T05:40:56Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:56Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.87,
+                "point": -4.5
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 1.95,
+                "point": 4.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:56Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.83,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": 1.98,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2025-10-14T05:40:16Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:16Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.87,
+                "point": -5.0
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 1.91,
+                "point": 5.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:16Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.88,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": 1.88,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2025-10-14T05:40:55Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:55Z",
+            "outcomes": [
+              {
+                "name": "Chicago Bears",
+                "price": 1.91,
+                "point": -5.5
+              },
+              {
+                "name": "New Orleans Saints",
+                "price": 1.91,
+                "point": 5.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:55Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 46.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 46.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ba4e8bfa1f4eeaa74c7b09f409361c0d",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-10-19T17:01:00Z",
+    "home_team": "New York Jets",
+    "away_team": "Carolina Panthers",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2025-10-14T05:40:35Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:35Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 1.87,
+                "point": -1.5
+              },
+              {
+                "name": "New York Jets",
+                "price": 1.95,
+                "point": 1.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:35Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.89,
+                "point": 42.5
+              },
+              {
+                "name": "Under",
+                "price": 1.93,
+                "point": 42.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-10-14T05:40:56Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:56Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 1.87,
+                "point": -1.5
+              },
+              {
+                "name": "New York Jets",
+                "price": 1.95,
+                "point": 1.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:56Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 42.5
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 42.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2025-10-14T05:40:26Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:26Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 1.83,
+                "point": -1.0
+              },
+              {
+                "name": "New York Jets",
+                "price": 2.0,
+                "point": 1.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:26Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 42.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 42.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2025-10-14T05:40:36Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:35Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 1.91,
+                "point": -2.5
+              },
+              {
+                "name": "New York Jets",
+                "price": 1.91,
+                "point": 2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:35Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 42.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 42.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2025-10-14T05:39:55Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:39:55Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 1.91,
+                "point": -2.5
+              },
+              {
+                "name": "New York Jets",
+                "price": 1.91,
+                "point": 2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:39:55Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.95,
+                "point": 42.0
+              },
+              {
+                "name": "Under",
+                "price": 1.87,
+                "point": 42.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2025-10-14T05:41:05Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:41:05Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 1.95,
+                "point": -2.5
+              },
+              {
+                "name": "New York Jets",
+                "price": 1.95,
+                "point": 2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:41:05Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.98,
+                "point": 42.0
+              },
+              {
+                "name": "Under",
+                "price": 1.88,
+                "point": 42.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2025-10-14T05:40:16Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:16Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 1.88,
+                "point": -2.0
+              },
+              {
+                "name": "New York Jets",
+                "price": 1.89,
+                "point": 2.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:16Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.88,
+                "point": 42.0
+              },
+              {
+                "name": "Under",
+                "price": 1.89,
+                "point": 42.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2025-10-14T05:40:48Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:48Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 1.91,
+                "point": -2.0
+              },
+              {
+                "name": "New York Jets",
+                "price": 1.91,
+                "point": 2.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:48Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.95,
+                "point": 42.0
+              },
+              {
+                "name": "Under",
+                "price": 1.87,
+                "point": 42.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2025-10-14T05:40:55Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:55Z",
+            "outcomes": [
+              {
+                "name": "Carolina Panthers",
+                "price": 1.91,
+                "point": -2.0
+              },
+              {
+                "name": "New York Jets",
+                "price": 1.91,
+                "point": 2.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:55Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 42.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 42.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f0336c9a3749716250afba387d157377",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-10-19T17:01:00Z",
+    "home_team": "Cleveland Browns",
+    "away_team": "Miami Dolphins",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2025-10-14T05:40:35Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:35Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 1.87,
+                "point": -2.5
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 1.95,
+                "point": 2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:35Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 40.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 40.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2025-10-14T05:40:26Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:26Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 1.87,
+                "point": -2.0
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 1.95,
+                "point": 2.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:26Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.95,
+                "point": 40.5
+              },
+              {
+                "name": "Under",
+                "price": 1.87,
+                "point": 40.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-10-14T05:40:56Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:56Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 1.87,
+                "point": -2.5
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 1.95,
+                "point": 2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:56Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 39.5
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 39.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2025-10-14T05:40:36Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:36Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 1.91,
+                "point": -2.5
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 1.91,
+                "point": 2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:36Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 40.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 40.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2025-10-14T05:39:55Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:39:55Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 1.87,
+                "point": -2.5
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 1.95,
+                "point": 2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:39:55Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.95,
+                "point": 40.5
+              },
+              {
+                "name": "Under",
+                "price": 1.87,
+                "point": 40.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2025-10-14T05:41:05Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:41:05Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 1.91,
+                "point": -2.5
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 2.0,
+                "point": 2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:41:05Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.98,
+                "point": 40.5
+              },
+              {
+                "name": "Under",
+                "price": 1.88,
+                "point": 40.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2025-10-14T05:40:16Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:16Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 1.87,
+                "point": -2.5
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 1.91,
+                "point": 2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:16Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 40.5
+              },
+              {
+                "name": "Under",
+                "price": 1.87,
+                "point": 40.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2025-10-14T05:40:48Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:48Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 1.87,
+                "point": -2.5
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 1.95,
+                "point": 2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:48Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 40.0
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 40.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2025-10-14T05:40:55Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:55Z",
+            "outcomes": [
+              {
+                "name": "Cleveland Browns",
+                "price": 1.91,
+                "point": -2.5
+              },
+              {
+                "name": "Miami Dolphins",
+                "price": 1.91,
+                "point": 2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:55Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 40.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 40.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3127c0dd6ed51a44354af51791bc3e5a",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-10-19T17:01:00Z",
+    "home_team": "Kansas City Chiefs",
+    "away_team": "Las Vegas Raiders",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2025-10-14T05:40:35Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:35Z",
+            "outcomes": [
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.89,
+                "point": -11.5
+              },
+              {
+                "name": "Las Vegas Raiders",
+                "price": 1.93,
+                "point": 11.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:35Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.93,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": 1.89,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2025-10-14T05:40:55Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:55Z",
+            "outcomes": [
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.91,
+                "point": -11.5
+              },
+              {
+                "name": "Las Vegas Raiders",
+                "price": 1.91,
+                "point": 11.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:55Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2025-10-14T05:40:26Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:26Z",
+            "outcomes": [
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.91,
+                "point": -11.5
+              },
+              {
+                "name": "Las Vegas Raiders",
+                "price": 1.91,
+                "point": 11.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:26Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-10-14T05:40:56Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:56Z",
+            "outcomes": [
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.87,
+                "point": -11.5
+              },
+              {
+                "name": "Las Vegas Raiders",
+                "price": 1.95,
+                "point": 11.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:56Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2025-10-14T05:40:36Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:36Z",
+            "outcomes": [
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.91,
+                "point": -12.0
+              },
+              {
+                "name": "Las Vegas Raiders",
+                "price": 1.91,
+                "point": 12.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:36Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2025-10-14T05:39:55Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:39:55Z",
+            "outcomes": [
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.93,
+                "point": -12.5
+              },
+              {
+                "name": "Las Vegas Raiders",
+                "price": 1.89,
+                "point": 12.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:39:55Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2025-10-14T05:41:05Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:41:05Z",
+            "outcomes": [
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.97,
+                "point": -12.5
+              },
+              {
+                "name": "Las Vegas Raiders",
+                "price": 1.93,
+                "point": 12.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:41:05Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.93,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": 1.93,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2025-10-14T05:40:16Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:16Z",
+            "outcomes": [
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.88,
+                "point": -12.0
+              },
+              {
+                "name": "Las Vegas Raiders",
+                "price": 1.88,
+                "point": 12.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:16Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.88,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": 1.88,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2025-10-14T05:40:48Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:48Z",
+            "outcomes": [
+              {
+                "name": "Kansas City Chiefs",
+                "price": 1.91,
+                "point": -12.0
+              },
+              {
+                "name": "Las Vegas Raiders",
+                "price": 1.91,
+                "point": 12.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:48Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.95,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": 1.87,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6a8d2daf7f75100d02656bc0217737e8",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-10-19T17:01:00Z",
+    "home_team": "Minnesota Vikings",
+    "away_team": "Philadelphia Eagles",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2025-10-14T05:40:35Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:35Z",
+            "outcomes": [
+              {
+                "name": "Minnesota Vikings",
+                "price": 1.89,
+                "point": 2.5
+              },
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.93,
+                "point": -2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:35Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.95,
+                "point": 43.5
+              },
+              {
+                "name": "Under",
+                "price": 1.87,
+                "point": 43.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2025-10-14T05:40:26Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:26Z",
+            "outcomes": [
+              {
+                "name": "Minnesota Vikings",
+                "price": 1.95,
+                "point": 1.0
+              },
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.87,
+                "point": -1.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:26Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 43.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 43.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-10-14T05:40:56Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:56Z",
+            "outcomes": [
+              {
+                "name": "Minnesota Vikings",
+                "price": 1.94,
+                "point": 2.5
+              },
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.88,
+                "point": -2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:56Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.96,
+                "point": 43.5
+              },
+              {
+                "name": "Under",
+                "price": 1.85,
+                "point": 43.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2025-10-14T05:40:36Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:35Z",
+            "outcomes": [
+              {
+                "name": "Minnesota Vikings",
+                "price": 1.91,
+                "point": 2.0
+              },
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.91,
+                "point": -2.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:35Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 43.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 43.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2025-10-14T05:39:55Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:39:55Z",
+            "outcomes": [
+              {
+                "name": "Minnesota Vikings",
+                "price": 1.94,
+                "point": 1.0
+              },
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.88,
+                "point": -1.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:39:55Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 43.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 43.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2025-10-14T05:41:05Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:41:05Z",
+            "outcomes": [
+              {
+                "name": "Minnesota Vikings",
+                "price": 1.99,
+                "point": 1.0
+              },
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.92,
+                "point": -1.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:41:05Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.93,
+                "point": 43.5
+              },
+              {
+                "name": "Under",
+                "price": 1.93,
+                "point": 43.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2025-10-14T05:40:16Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:16Z",
+            "outcomes": [
+              {
+                "name": "Minnesota Vikings",
+                "price": 1.93,
+                "point": 2.5
+              },
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.83,
+                "point": -2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:16Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 43.0
+              },
+              {
+                "name": "Under",
+                "price": 1.87,
+                "point": 43.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2025-10-14T05:40:48Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:48Z",
+            "outcomes": [
+              {
+                "name": "Minnesota Vikings",
+                "price": 1.91,
+                "point": 2.0
+              },
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.91,
+                "point": -2.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:48Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 43.0
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 43.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2025-10-14T05:40:55Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:55Z",
+            "outcomes": [
+              {
+                "name": "Minnesota Vikings",
+                "price": 1.91,
+                "point": 2.0
+              },
+              {
+                "name": "Philadelphia Eagles",
+                "price": 1.91,
+                "point": -2.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:55Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 43.5
+              },
+              {
+                "name": "Under",
+                "price": 1.85,
+                "point": 43.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f7fa9341eeffb08f7e6e769398cd32e2",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-10-19T17:01:00Z",
+    "home_team": "Tennessee Titans",
+    "away_team": "New England Patriots",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2025-10-14T05:40:35Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:35Z",
+            "outcomes": [
+              {
+                "name": "New England Patriots",
+                "price": 1.87,
+                "point": -7.0
+              },
+              {
+                "name": "Tennessee Titans",
+                "price": 1.95,
+                "point": 7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:35Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.93,
+                "point": 42.5
+              },
+              {
+                "name": "Under",
+                "price": 1.89,
+                "point": 42.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2025-10-14T05:40:26Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:26Z",
+            "outcomes": [
+              {
+                "name": "New England Patriots",
+                "price": 1.91,
+                "point": -7.0
+              },
+              {
+                "name": "Tennessee Titans",
+                "price": 1.91,
+                "point": 7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:26Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 42.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 42.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-10-14T05:40:56Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:56Z",
+            "outcomes": [
+              {
+                "name": "New England Patriots",
+                "price": 1.91,
+                "point": -7.0
+              },
+              {
+                "name": "Tennessee Titans",
+                "price": 1.91,
+                "point": 7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:56Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 41.5
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 41.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2025-10-14T05:40:36Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:36Z",
+            "outcomes": [
+              {
+                "name": "New England Patriots",
+                "price": 1.91,
+                "point": -7.0
+              },
+              {
+                "name": "Tennessee Titans",
+                "price": 1.91,
+                "point": 7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:36Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 42.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 42.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2025-10-14T05:41:05Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:41:05Z",
+            "outcomes": [
+              {
+                "name": "New England Patriots",
+                "price": 1.95,
+                "point": -7.0
+              },
+              {
+                "name": "Tennessee Titans",
+                "price": 1.95,
+                "point": 7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:41:05Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.93,
+                "point": 42.0
+              },
+              {
+                "name": "Under",
+                "price": 1.93,
+                "point": 42.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2025-10-14T05:39:55Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:39:55Z",
+            "outcomes": [
+              {
+                "name": "New England Patriots",
+                "price": 1.91,
+                "point": -7.0
+              },
+              {
+                "name": "Tennessee Titans",
+                "price": 1.91,
+                "point": 7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:39:55Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 42.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 42.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2025-10-14T05:40:16Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:16Z",
+            "outcomes": [
+              {
+                "name": "New England Patriots",
+                "price": 1.87,
+                "point": -7.0
+              },
+              {
+                "name": "Tennessee Titans",
+                "price": 1.91,
+                "point": 7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:16Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.88,
+                "point": 42.0
+              },
+              {
+                "name": "Under",
+                "price": 1.88,
+                "point": 42.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2025-10-14T05:40:48Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:48Z",
+            "outcomes": [
+              {
+                "name": "New England Patriots",
+                "price": 1.87,
+                "point": -7.0
+              },
+              {
+                "name": "Tennessee Titans",
+                "price": 1.95,
+                "point": 7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:48Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 42.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 42.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2025-10-14T05:40:55Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:55Z",
+            "outcomes": [
+              {
+                "name": "New England Patriots",
+                "price": 1.91,
+                "point": -7.0
+              },
+              {
+                "name": "Tennessee Titans",
+                "price": 1.91,
+                "point": 7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:55Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 42.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 42.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3be866344dfa050e602a6e69170b3cbe",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-10-19T20:06:00Z",
+    "home_team": "Denver Broncos",
+    "away_team": "New York Giants",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2025-10-14T05:40:35Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:35Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 1.91,
+                "point": -7.0
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.91,
+                "point": 7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:35Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.95,
+                "point": 40.5
+              },
+              {
+                "name": "Under",
+                "price": 1.87,
+                "point": 40.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2025-10-14T05:40:26Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:26Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 1.95,
+                "point": -7.0
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.87,
+                "point": 7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:26Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.95,
+                "point": 40.5
+              },
+              {
+                "name": "Under",
+                "price": 1.87,
+                "point": 40.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-10-14T05:40:56Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:56Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 1.91,
+                "point": -7.0
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.91,
+                "point": 7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:56Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.95,
+                "point": 40.5
+              },
+              {
+                "name": "Under",
+                "price": 1.87,
+                "point": 40.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2025-10-14T05:40:36Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:35Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 1.91,
+                "point": -7.0
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.91,
+                "point": 7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:35Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 40.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 40.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2025-10-14T05:41:05Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:41:05Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 1.84,
+                "point": -6.5
+              },
+              {
+                "name": "New York Giants",
+                "price": 2.08,
+                "point": 6.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:41:05Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.99,
+                "point": 40.5
+              },
+              {
+                "name": "Under",
+                "price": 1.88,
+                "point": 40.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2025-10-14T05:39:55Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:39:55Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 1.81,
+                "point": -6.5
+              },
+              {
+                "name": "New York Giants",
+                "price": 2.03,
+                "point": 6.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:39:55Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.96,
+                "point": 40.5
+              },
+              {
+                "name": "Under",
+                "price": 1.86,
+                "point": 40.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2025-10-14T05:40:16Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:16Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 1.89,
+                "point": -7.0
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.88,
+                "point": 7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:16Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.85,
+                "point": 40.0
+              },
+              {
+                "name": "Under",
+                "price": 1.92,
+                "point": 40.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2025-10-14T05:40:48Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:48Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 1.87,
+                "point": -6.5
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.95,
+                "point": 6.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:48Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 40.0
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 40.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2025-10-14T05:40:55Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:55Z",
+            "outcomes": [
+              {
+                "name": "Denver Broncos",
+                "price": 1.95,
+                "point": -7.0
+              },
+              {
+                "name": "New York Giants",
+                "price": 1.87,
+                "point": 7.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:55Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.95,
+                "point": 40.5
+              },
+              {
+                "name": "Under",
+                "price": 1.87,
+                "point": 40.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a0ad5501e9d1d2ee9f61d9f293374f17",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-10-19T20:06:00Z",
+    "home_team": "Los Angeles Chargers",
+    "away_team": "Indianapolis Colts",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2025-10-14T05:40:35Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:35Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 1.89,
+                "point": 1.5
+              },
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.93,
+                "point": -1.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:35Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 48.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 48.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2025-10-14T05:40:26Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:26Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 1.95,
+                "point": 1.0
+              },
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.87,
+                "point": -1.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:26Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 48.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 48.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-10-14T05:40:56Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:56Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 1.89,
+                "point": 1.5
+              },
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.93,
+                "point": -1.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:56Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 48.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 48.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2025-10-14T05:40:36Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:36Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 1.91,
+                "point": 1.5
+              },
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.91,
+                "point": -1.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:36Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 48.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 48.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2025-10-14T05:41:05Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:41:05Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 2.0,
+                "point": 1.5
+              },
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.91,
+                "point": -1.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:41:05Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.88,
+                "point": 48.0
+              },
+              {
+                "name": "Under",
+                "price": 1.98,
+                "point": 48.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2025-10-14T05:39:55Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:39:55Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 1.91,
+                "point": 1.5
+              },
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.91,
+                "point": -1.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:39:55Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 48.0
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 48.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2025-10-14T05:40:16Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:16Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 1.87,
+                "point": 2.0
+              },
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.91,
+                "point": -2.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:16Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.92,
+                "point": 48.5
+              },
+              {
+                "name": "Under",
+                "price": 1.87,
+                "point": 48.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2025-10-14T05:40:48Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:48Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 1.91,
+                "point": 1.5
+              },
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.91,
+                "point": -1.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:48Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.95,
+                "point": 48.5
+              },
+              {
+                "name": "Under",
+                "price": 1.87,
+                "point": 48.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2025-10-14T05:40:55Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:55Z",
+            "outcomes": [
+              {
+                "name": "Indianapolis Colts",
+                "price": 1.91,
+                "point": 1.5
+              },
+              {
+                "name": "Los Angeles Chargers",
+                "price": 1.91,
+                "point": -1.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:55Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 48.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 48.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ff0c1ce30d562926ce40fc9bbaa2b7b1",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-10-19T20:25:00Z",
+    "home_team": "Dallas Cowboys",
+    "away_team": "Washington Commanders",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2025-10-14T05:40:35Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:35Z",
+            "outcomes": [
+              {
+                "name": "Dallas Cowboys",
+                "price": 1.91,
+                "point": 2.5
+              },
+              {
+                "name": "Washington Commanders",
+                "price": 1.91,
+                "point": -2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:35Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 54.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 54.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2025-10-14T05:40:55Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:55Z",
+            "outcomes": [
+              {
+                "name": "Dallas Cowboys",
+                "price": 1.91,
+                "point": 2.5
+              },
+              {
+                "name": "Washington Commanders",
+                "price": 1.91,
+                "point": -2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:55Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 54.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 54.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-10-14T05:40:56Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:56Z",
+            "outcomes": [
+              {
+                "name": "Dallas Cowboys",
+                "price": 1.91,
+                "point": 2.5
+              },
+              {
+                "name": "Washington Commanders",
+                "price": 1.91,
+                "point": -2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:56Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 53.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 53.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2025-10-14T05:40:36Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:36Z",
+            "outcomes": [
+              {
+                "name": "Dallas Cowboys",
+                "price": 1.91,
+                "point": 2.5
+              },
+              {
+                "name": "Washington Commanders",
+                "price": 1.91,
+                "point": -2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:36Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 54.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 54.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2025-10-14T05:40:16Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:16Z",
+            "outcomes": [
+              {
+                "name": "Dallas Cowboys",
+                "price": 1.92,
+                "point": 2.5
+              },
+              {
+                "name": "Washington Commanders",
+                "price": 1.87,
+                "point": -2.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:16Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 54.0
+              },
+              {
+                "name": "Under",
+                "price": 1.88,
+                "point": 54.0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1036171316ac51350b388c99e000cfc1",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-10-19T20:26:00Z",
+    "home_team": "Arizona Cardinals",
+    "away_team": "Green Bay Packers",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2025-10-14T05:40:35Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:35Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 1.95,
+                "point": 6.5
+              },
+              {
+                "name": "Green Bay Packers",
+                "price": 1.87,
+                "point": -6.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:35Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.93,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.89,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2025-10-14T05:40:26Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:26Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 1.91,
+                "point": 6.5
+              },
+              {
+                "name": "Green Bay Packers",
+                "price": 1.91,
+                "point": -6.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:26Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 44.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 44.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-10-14T05:40:56Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:56Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 1.93,
+                "point": 6.5
+              },
+              {
+                "name": "Green Bay Packers",
+                "price": 1.89,
+                "point": -6.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:56Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.95,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.87,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2025-10-14T05:40:36Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:36Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 1.91,
+                "point": 6.5
+              },
+              {
+                "name": "Green Bay Packers",
+                "price": 1.91,
+                "point": -6.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:36Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2025-10-14T05:41:05Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:41:05Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 1.95,
+                "point": 6.5
+              },
+              {
+                "name": "Green Bay Packers",
+                "price": 1.95,
+                "point": -6.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:41:05Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.93,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.93,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2025-10-14T05:39:55Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:39:55Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 1.91,
+                "point": 6.5
+              },
+              {
+                "name": "Green Bay Packers",
+                "price": 1.91,
+                "point": -6.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:39:55Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2025-10-14T05:40:16Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:16Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 1.91,
+                "point": 6.5
+              },
+              {
+                "name": "Green Bay Packers",
+                "price": 1.87,
+                "point": -6.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:16Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.87,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2025-10-14T05:40:55Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:55Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 1.91,
+                "point": 6.5
+              },
+              {
+                "name": "Green Bay Packers",
+                "price": 1.91,
+                "point": -6.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:55Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2025-10-14T05:40:48Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:48Z",
+            "outcomes": [
+              {
+                "name": "Arizona Cardinals",
+                "price": 1.91,
+                "point": 6.5
+              },
+              {
+                "name": "Green Bay Packers",
+                "price": 1.91,
+                "point": -6.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:48Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 44.0
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 44.0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "7b2ded52498efcf97a08ef10ee99b0f3",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-10-20T00:20:00Z",
+    "home_team": "San Francisco 49ers",
+    "away_team": "Atlanta Falcons",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2025-10-14T05:40:35Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:35Z",
+            "outcomes": [
+              {
+                "name": "Atlanta Falcons",
+                "price": 1.87,
+                "point": 3.0
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 1.95,
+                "point": -3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:35Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-10-14T05:40:56Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:56Z",
+            "outcomes": [
+              {
+                "name": "Atlanta Falcons",
+                "price": 1.91,
+                "point": 3.0
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 1.91,
+                "point": -3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:56Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.96,
+                "point": 46.5
+              },
+              {
+                "name": "Under",
+                "price": 1.85,
+                "point": 46.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2025-10-14T05:40:36Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:35Z",
+            "outcomes": [
+              {
+                "name": "Atlanta Falcons",
+                "price": 1.91,
+                "point": 3.0
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 1.91,
+                "point": -3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:35Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2025-10-14T05:40:16Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:16Z",
+            "outcomes": [
+              {
+                "name": "Atlanta Falcons",
+                "price": 1.88,
+                "point": 3.0
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 1.88,
+                "point": -3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:16Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.88,
+                "point": 46.0
+              },
+              {
+                "name": "Under",
+                "price": 1.88,
+                "point": 46.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2025-10-14T05:40:55Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:55Z",
+            "outcomes": [
+              {
+                "name": "Atlanta Falcons",
+                "price": 1.87,
+                "point": 3.0
+              },
+              {
+                "name": "San Francisco 49ers",
+                "price": 1.95,
+                "point": -3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:55Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "b808059d3ccc754ace4a3d23b58e47e8",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-10-20T23:01:00Z",
+    "home_team": "Detroit Lions",
+    "away_team": "Tampa Bay Buccaneers",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2025-10-14T05:40:35Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:35Z",
+            "outcomes": [
+              {
+                "name": "Detroit Lions",
+                "price": 1.89,
+                "point": -4.5
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 1.93,
+                "point": 4.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:35Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.93,
+                "point": 53.5
+              },
+              {
+                "name": "Under",
+                "price": 1.89,
+                "point": 53.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-10-14T05:40:56Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:56Z",
+            "outcomes": [
+              {
+                "name": "Detroit Lions",
+                "price": 1.85,
+                "point": -4.5
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 1.96,
+                "point": 4.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:56Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.95,
+                "point": 53.5
+              },
+              {
+                "name": "Under",
+                "price": 1.87,
+                "point": 53.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2025-10-14T05:40:26Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:26Z",
+            "outcomes": [
+              {
+                "name": "Detroit Lions",
+                "price": 1.91,
+                "point": -4.5
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 1.91,
+                "point": 4.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:26Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 53.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 53.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2025-10-14T05:40:36Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:36Z",
+            "outcomes": [
+              {
+                "name": "Detroit Lions",
+                "price": 1.91,
+                "point": -4.5
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 1.91,
+                "point": 4.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:36Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 52.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 52.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2025-10-14T05:41:05Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:41:05Z",
+            "outcomes": [
+              {
+                "name": "Detroit Lions",
+                "price": 1.91,
+                "point": -4.5
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 2.0,
+                "point": 4.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:41:05Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.93,
+                "point": 53.0
+              },
+              {
+                "name": "Under",
+                "price": 1.93,
+                "point": 53.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2025-10-14T05:39:55Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:39:55Z",
+            "outcomes": [
+              {
+                "name": "Detroit Lions",
+                "price": 1.87,
+                "point": -4.5
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 1.95,
+                "point": 4.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:39:55Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 53.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 53.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2025-10-14T05:40:16Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:16Z",
+            "outcomes": [
+              {
+                "name": "Detroit Lions",
+                "price": 1.89,
+                "point": -4.5
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 1.88,
+                "point": 4.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:16Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 52.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 52.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2025-10-14T05:40:48Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:48Z",
+            "outcomes": [
+              {
+                "name": "Detroit Lions",
+                "price": 1.87,
+                "point": -5.0
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 1.95,
+                "point": 5.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:48Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 52.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 52.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2025-10-14T05:40:55Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:55Z",
+            "outcomes": [
+              {
+                "name": "Detroit Lions",
+                "price": 1.91,
+                "point": -4.5
+              },
+              {
+                "name": "Tampa Bay Buccaneers",
+                "price": 1.91,
+                "point": 4.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:55Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 52.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 52.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "7ca953ab786f70b22cabbe4946d330fa",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-10-21T02:01:00Z",
+    "home_team": "Seattle Seahawks",
+    "away_team": "Houston Texans",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2025-10-14T05:40:35Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:35Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.98,
+                "point": 3.0
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.85,
+                "point": -3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:35Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.85,
+                "point": 40.5
+              },
+              {
+                "name": "Under",
+                "price": 1.98,
+                "point": 40.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2025-10-14T05:40:26Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:26Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 2.0,
+                "point": 3.0
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.83,
+                "point": -3.0
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:26Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.95,
+                "point": 41.0
+              },
+              {
+                "name": "Under",
+                "price": 1.87,
+                "point": 41.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-10-14T05:40:56Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:56Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.89,
+                "point": 3.5
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.93,
+                "point": -3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:56Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 40.5
+              },
+              {
+                "name": "Under",
+                "price": 1.95,
+                "point": 40.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2025-10-14T05:40:36Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:36Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.91,
+                "point": 3.5
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.91,
+                "point": -3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:36Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 41.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 41.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2025-10-14T05:41:05Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:41:05Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.95,
+                "point": 3.5
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.95,
+                "point": -3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:41:05Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.98,
+                "point": 41.0
+              },
+              {
+                "name": "Under",
+                "price": 1.88,
+                "point": 41.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2025-10-14T05:39:55Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:39:55Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.91,
+                "point": 3.5
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.91,
+                "point": -3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:39:55Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.95,
+                "point": 41.0
+              },
+              {
+                "name": "Under",
+                "price": 1.87,
+                "point": 41.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2025-10-14T05:40:16Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:16Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.85,
+                "point": 3.5
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.92,
+                "point": -3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:16Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.87,
+                "point": 40.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 40.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2025-10-14T05:40:48Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:48Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.87,
+                "point": 3.5
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.95,
+                "point": -3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:48Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 40.5
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 40.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2025-10-14T05:40:55Z",
+        "markets": [
+          {
+            "key": "spreads",
+            "last_update": "2025-10-14T05:40:55Z",
+            "outcomes": [
+              {
+                "name": "Houston Texans",
+                "price": 1.87,
+                "point": 3.5
+              },
+              {
+                "name": "Seattle Seahawks",
+                "price": 1.95,
+                "point": -3.5
+              }
+            ]
+          },
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T05:40:55Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": 1.91,
+                "point": 41.0
+              },
+              {
+                "name": "Under",
+                "price": 1.91,
+                "point": 41.0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

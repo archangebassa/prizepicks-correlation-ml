@@ -1,0 +1,2958 @@
+[
+  {
+    "id": "6076f9eab496770efc0ab7095b27c122",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-10-17T00:16:00Z",
+    "home_team": "Cincinnati Bengals",
+    "away_team": "Pittsburgh Steelers",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2025-10-14T06:39:06Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:39:06Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -115,
+                "point": 42.5
+              },
+              {
+                "name": "Under",
+                "price": -105,
+                "point": 42.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2025-10-14T06:38:45Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:45Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -110,
+                "point": 42.5
+              },
+              {
+                "name": "Under",
+                "price": -110,
+                "point": 42.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2025-10-14T06:38:56Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:55Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -110,
+                "point": 42.5
+              },
+              {
+                "name": "Under",
+                "price": -110,
+                "point": 42.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-10-14T06:38:59Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:59Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -105,
+                "point": 42.5
+              },
+              {
+                "name": "Under",
+                "price": -115,
+                "point": 42.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2025-10-14T06:38:25Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:25Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -110,
+                "point": 42.5
+              },
+              {
+                "name": "Under",
+                "price": -110,
+                "point": 42.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2025-10-14T06:38:56Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:56Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -115,
+                "point": 42.5
+              },
+              {
+                "name": "Under",
+                "price": 100,
+                "point": 42.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2025-10-14T06:38:25Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:25Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -117,
+                "point": 42.5
+              },
+              {
+                "name": "Under",
+                "price": -103,
+                "point": 42.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2025-10-14T06:38:55Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:55Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -112,
+                "point": 42.5
+              },
+              {
+                "name": "Under",
+                "price": -114,
+                "point": 42.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2025-10-14T06:39:01Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:39:01Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -105,
+                "point": 43.0
+              },
+              {
+                "name": "Under",
+                "price": -115,
+                "point": 43.0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "79de65f1b97c9145ebdcb019eb486500",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-10-19T13:31:00Z",
+    "home_team": "Jacksonville Jaguars",
+    "away_team": "Los Angeles Rams",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2025-10-14T06:39:06Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:39:06Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -105,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": -115,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-10-14T06:38:59Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:59Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -115,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": -105,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2025-10-14T06:38:25Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:25Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -110,
+                "point": 45.0
+              },
+              {
+                "name": "Under",
+                "price": -110,
+                "point": 45.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2025-10-14T06:38:45Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:45Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -110,
+                "point": 45.0
+              },
+              {
+                "name": "Under",
+                "price": -110,
+                "point": 45.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2025-10-14T06:38:56Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:55Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -110,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": -110,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2025-10-14T06:39:01Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:39:01Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -110,
+                "point": 45.0
+              },
+              {
+                "name": "Under",
+                "price": -110,
+                "point": 45.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2025-10-14T06:38:56Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:56Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -102,
+                "point": 45.0
+              },
+              {
+                "name": "Under",
+                "price": -113,
+                "point": 45.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2025-10-14T06:38:25Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:25Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -105,
+                "point": 45.0
+              },
+              {
+                "name": "Under",
+                "price": -115,
+                "point": 45.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2025-10-14T06:38:55Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:55Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -110,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": -114,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "8f06a4b503cc7309cb0df4a8b67f9930",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-10-19T17:00:00Z",
+    "home_team": "Chicago Bears",
+    "away_team": "New Orleans Saints",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2025-10-14T06:39:06Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:39:06Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -110,
+                "point": 46.5
+              },
+              {
+                "name": "Under",
+                "price": -110,
+                "point": 46.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-10-14T06:38:59Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:59Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -120,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": -102,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2025-10-14T06:38:55Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:55Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -113,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": -113,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2025-10-14T06:38:45Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:45Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -110,
+                "point": 46.5
+              },
+              {
+                "name": "Under",
+                "price": -110,
+                "point": 46.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ba4e8bfa1f4eeaa74c7b09f409361c0d",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-10-19T17:01:00Z",
+    "home_team": "New York Jets",
+    "away_team": "Carolina Panthers",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2025-10-14T06:39:06Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:39:06Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -112,
+                "point": 42.5
+              },
+              {
+                "name": "Under",
+                "price": -108,
+                "point": 42.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-10-14T06:38:59Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:59Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -115,
+                "point": 42.5
+              },
+              {
+                "name": "Under",
+                "price": -105,
+                "point": 42.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2025-10-14T06:38:56Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:56Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -110,
+                "point": 42.0
+              },
+              {
+                "name": "Under",
+                "price": -110,
+                "point": 42.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2025-10-14T06:38:25Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:25Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -110,
+                "point": 42.5
+              },
+              {
+                "name": "Under",
+                "price": -110,
+                "point": 42.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2025-10-14T06:38:25Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:25Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -105,
+                "point": 42.0
+              },
+              {
+                "name": "Under",
+                "price": -115,
+                "point": 42.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2025-10-14T06:38:56Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:56Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -102,
+                "point": 42.0
+              },
+              {
+                "name": "Under",
+                "price": -113,
+                "point": 42.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2025-10-14T06:38:55Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:55Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -114,
+                "point": 42.0
+              },
+              {
+                "name": "Under",
+                "price": -112,
+                "point": 42.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2025-10-14T06:39:01Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:39:01Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -105,
+                "point": 42.0
+              },
+              {
+                "name": "Under",
+                "price": -115,
+                "point": 42.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2025-10-14T06:38:45Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:45Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -110,
+                "point": 42.5
+              },
+              {
+                "name": "Under",
+                "price": -110,
+                "point": 42.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f0336c9a3749716250afba387d157377",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-10-19T17:01:00Z",
+    "home_team": "Cleveland Browns",
+    "away_team": "Miami Dolphins",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2025-10-14T06:39:06Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:39:06Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -110,
+                "point": 40.5
+              },
+              {
+                "name": "Under",
+                "price": -110,
+                "point": 40.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2025-10-14T06:38:56Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:55Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -105,
+                "point": 40.5
+              },
+              {
+                "name": "Under",
+                "price": -115,
+                "point": 40.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-10-14T06:38:59Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:59Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -115,
+                "point": 39.5
+              },
+              {
+                "name": "Under",
+                "price": -105,
+                "point": 39.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2025-10-14T06:38:25Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:25Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -110,
+                "point": 40.5
+              },
+              {
+                "name": "Under",
+                "price": -110,
+                "point": 40.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2025-10-14T06:38:25Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:25Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -105,
+                "point": 40.5
+              },
+              {
+                "name": "Under",
+                "price": -115,
+                "point": 40.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2025-10-14T06:38:56Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:56Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -102,
+                "point": 40.5
+              },
+              {
+                "name": "Under",
+                "price": -113,
+                "point": 40.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2025-10-14T06:38:55Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:55Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -110,
+                "point": 40.5
+              },
+              {
+                "name": "Under",
+                "price": -115,
+                "point": 40.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2025-10-14T06:39:01Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:39:01Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -115,
+                "point": 40.0
+              },
+              {
+                "name": "Under",
+                "price": -105,
+                "point": 40.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2025-10-14T06:38:45Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:45Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -110,
+                "point": 40.5
+              },
+              {
+                "name": "Under",
+                "price": -110,
+                "point": 40.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3127c0dd6ed51a44354af51791bc3e5a",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-10-19T17:01:00Z",
+    "home_team": "Kansas City Chiefs",
+    "away_team": "Las Vegas Raiders",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2025-10-14T06:39:06Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:39:06Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -108,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": -112,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2025-10-14T06:38:45Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:45Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -110,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": -110,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2025-10-14T06:38:56Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:55Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -110,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": -110,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-10-14T06:38:59Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:59Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -115,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": -105,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2025-10-14T06:38:25Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:25Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -110,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": -110,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2025-10-14T06:38:25Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:25Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -110,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": -110,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2025-10-14T06:38:56Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:56Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -107,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": -107,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2025-10-14T06:38:55Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:55Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -113,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": -113,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2025-10-14T06:39:01Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:39:01Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -105,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": -115,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "6a8d2daf7f75100d02656bc0217737e8",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-10-19T17:01:00Z",
+    "home_team": "Minnesota Vikings",
+    "away_team": "Philadelphia Eagles",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2025-10-14T06:39:06Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:39:06Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -105,
+                "point": 43.5
+              },
+              {
+                "name": "Under",
+                "price": -115,
+                "point": 43.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2025-10-14T06:38:56Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:56Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -110,
+                "point": 43.5
+              },
+              {
+                "name": "Under",
+                "price": -110,
+                "point": 43.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-10-14T06:38:59Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:59Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -104,
+                "point": 43.5
+              },
+              {
+                "name": "Under",
+                "price": -118,
+                "point": 43.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2025-10-14T06:38:25Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:25Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -110,
+                "point": 43.5
+              },
+              {
+                "name": "Under",
+                "price": -110,
+                "point": 43.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2025-10-14T06:38:25Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:25Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -110,
+                "point": 43.5
+              },
+              {
+                "name": "Under",
+                "price": -110,
+                "point": 43.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2025-10-14T06:38:56Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:56Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -107,
+                "point": 43.5
+              },
+              {
+                "name": "Under",
+                "price": -107,
+                "point": 43.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2025-10-14T06:38:55Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:55Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -110,
+                "point": 43.0
+              },
+              {
+                "name": "Under",
+                "price": -115,
+                "point": 43.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2025-10-14T06:39:01Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:39:01Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -115,
+                "point": 43.0
+              },
+              {
+                "name": "Under",
+                "price": -105,
+                "point": 43.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2025-10-14T06:38:45Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:45Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -110,
+                "point": 43.5
+              },
+              {
+                "name": "Under",
+                "price": -118,
+                "point": 43.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "f7fa9341eeffb08f7e6e769398cd32e2",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-10-19T17:01:00Z",
+    "home_team": "Tennessee Titans",
+    "away_team": "New England Patriots",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2025-10-14T06:39:06Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:39:06Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -108,
+                "point": 42.5
+              },
+              {
+                "name": "Under",
+                "price": -112,
+                "point": 42.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2025-10-14T06:38:56Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:56Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -110,
+                "point": 42.0
+              },
+              {
+                "name": "Under",
+                "price": -110,
+                "point": 42.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-10-14T06:38:59Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:59Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -115,
+                "point": 41.5
+              },
+              {
+                "name": "Under",
+                "price": -105,
+                "point": 41.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2025-10-14T06:38:25Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:25Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -110,
+                "point": 42.5
+              },
+              {
+                "name": "Under",
+                "price": -110,
+                "point": 42.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2025-10-14T06:38:56Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:56Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -107,
+                "point": 42.0
+              },
+              {
+                "name": "Under",
+                "price": -107,
+                "point": 42.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2025-10-14T06:38:25Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:25Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -110,
+                "point": 42.0
+              },
+              {
+                "name": "Under",
+                "price": -110,
+                "point": 42.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2025-10-14T06:38:55Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:55Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -113,
+                "point": 42.0
+              },
+              {
+                "name": "Under",
+                "price": -113,
+                "point": 42.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2025-10-14T06:39:01Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:39:01Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -110,
+                "point": 42.5
+              },
+              {
+                "name": "Under",
+                "price": -110,
+                "point": 42.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2025-10-14T06:38:45Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:45Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -110,
+                "point": 42.5
+              },
+              {
+                "name": "Under",
+                "price": -110,
+                "point": 42.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3be866344dfa050e602a6e69170b3cbe",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-10-19T20:06:00Z",
+    "home_team": "Denver Broncos",
+    "away_team": "New York Giants",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2025-10-14T06:39:06Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:39:06Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -105,
+                "point": 40.5
+              },
+              {
+                "name": "Under",
+                "price": -115,
+                "point": 40.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2025-10-14T06:38:56Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:56Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -105,
+                "point": 40.5
+              },
+              {
+                "name": "Under",
+                "price": -115,
+                "point": 40.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-10-14T06:38:59Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:59Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -105,
+                "point": 40.5
+              },
+              {
+                "name": "Under",
+                "price": -115,
+                "point": 40.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2025-10-14T06:38:25Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:25Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -110,
+                "point": 40.0
+              },
+              {
+                "name": "Under",
+                "price": -110,
+                "point": 40.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2025-10-14T06:38:56Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:56Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -101,
+                "point": 40.5
+              },
+              {
+                "name": "Under",
+                "price": -114,
+                "point": 40.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2025-10-14T06:38:25Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:25Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -104,
+                "point": 40.5
+              },
+              {
+                "name": "Under",
+                "price": -116,
+                "point": 40.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2025-10-14T06:38:55Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:55Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -117,
+                "point": 40.0
+              },
+              {
+                "name": "Under",
+                "price": -109,
+                "point": 40.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2025-10-14T06:39:01Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:39:01Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -115,
+                "point": 40.0
+              },
+              {
+                "name": "Under",
+                "price": -105,
+                "point": 40.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2025-10-14T06:38:45Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:45Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -105,
+                "point": 40.5
+              },
+              {
+                "name": "Under",
+                "price": -115,
+                "point": 40.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "a0ad5501e9d1d2ee9f61d9f293374f17",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-10-19T20:06:00Z",
+    "home_team": "Los Angeles Chargers",
+    "away_team": "Indianapolis Colts",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2025-10-14T06:39:06Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:39:06Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -110,
+                "point": 48.5
+              },
+              {
+                "name": "Under",
+                "price": -110,
+                "point": 48.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2025-10-14T06:38:56Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:56Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -110,
+                "point": 48.5
+              },
+              {
+                "name": "Under",
+                "price": -110,
+                "point": 48.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-10-14T06:38:59Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:59Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -110,
+                "point": 48.5
+              },
+              {
+                "name": "Under",
+                "price": -110,
+                "point": 48.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2025-10-14T06:38:25Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:25Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -110,
+                "point": 48.5
+              },
+              {
+                "name": "Under",
+                "price": -110,
+                "point": 48.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2025-10-14T06:38:56Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:56Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -113,
+                "point": 48.0
+              },
+              {
+                "name": "Under",
+                "price": -102,
+                "point": 48.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2025-10-14T06:38:25Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:25Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -115,
+                "point": 48.0
+              },
+              {
+                "name": "Under",
+                "price": -105,
+                "point": 48.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2025-10-14T06:38:55Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:55Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -109,
+                "point": 48.5
+              },
+              {
+                "name": "Under",
+                "price": -115,
+                "point": 48.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2025-10-14T06:39:01Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:39:01Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -105,
+                "point": 48.5
+              },
+              {
+                "name": "Under",
+                "price": -115,
+                "point": 48.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2025-10-14T06:38:45Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:45Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -110,
+                "point": 48.5
+              },
+              {
+                "name": "Under",
+                "price": -110,
+                "point": 48.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ff0c1ce30d562926ce40fc9bbaa2b7b1",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-10-19T20:25:00Z",
+    "home_team": "Dallas Cowboys",
+    "away_team": "Washington Commanders",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2025-10-14T06:39:06Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:39:06Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -110,
+                "point": 54.5
+              },
+              {
+                "name": "Under",
+                "price": -110,
+                "point": 54.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2025-10-14T06:38:45Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:45Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -110,
+                "point": 54.5
+              },
+              {
+                "name": "Under",
+                "price": -110,
+                "point": 54.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-10-14T06:38:59Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:59Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -110,
+                "point": 53.5
+              },
+              {
+                "name": "Under",
+                "price": -110,
+                "point": 53.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2025-10-14T06:38:25Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:25Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -110,
+                "point": 54.0
+              },
+              {
+                "name": "Under",
+                "price": -110,
+                "point": 54.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2025-10-14T06:38:55Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:55Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -110,
+                "point": 54.0
+              },
+              {
+                "name": "Under",
+                "price": -114,
+                "point": 54.0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "1036171316ac51350b388c99e000cfc1",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-10-19T20:26:00Z",
+    "home_team": "Arizona Cardinals",
+    "away_team": "Green Bay Packers",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2025-10-14T06:39:06Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:39:06Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -108,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": -112,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2025-10-14T06:38:56Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:56Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -110,
+                "point": 44.0
+              },
+              {
+                "name": "Under",
+                "price": -110,
+                "point": 44.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-10-14T06:38:59Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:59Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -105,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": -115,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2025-10-14T06:38:25Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:25Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -110,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": -110,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2025-10-14T06:38:56Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:56Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -107,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": -107,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2025-10-14T06:38:25Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:25Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -110,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": -110,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2025-10-14T06:38:55Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:55Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -110,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": -115,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2025-10-14T06:38:45Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:45Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -110,
+                "point": 44.5
+              },
+              {
+                "name": "Under",
+                "price": -110,
+                "point": 44.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2025-10-14T06:39:01Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:39:01Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -115,
+                "point": 44.0
+              },
+              {
+                "name": "Under",
+                "price": -105,
+                "point": 44.0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "7b2ded52498efcf97a08ef10ee99b0f3",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-10-20T00:20:00Z",
+    "home_team": "San Francisco 49ers",
+    "away_team": "Atlanta Falcons",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2025-10-14T06:39:06Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:39:06Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -110,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": -110,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-10-14T06:38:59Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:59Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -104,
+                "point": 46.5
+              },
+              {
+                "name": "Under",
+                "price": -118,
+                "point": 46.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2025-10-14T06:38:25Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:25Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -110,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": -110,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2025-10-14T06:38:55Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:55Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -113,
+                "point": 46.0
+              },
+              {
+                "name": "Under",
+                "price": -113,
+                "point": 46.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2025-10-14T06:38:45Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:45Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -110,
+                "point": 45.5
+              },
+              {
+                "name": "Under",
+                "price": -110,
+                "point": 45.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "b808059d3ccc754ace4a3d23b58e47e8",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-10-20T23:01:00Z",
+    "home_team": "Detroit Lions",
+    "away_team": "Tampa Bay Buccaneers",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2025-10-14T06:39:06Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:39:06Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -108,
+                "point": 53.5
+              },
+              {
+                "name": "Under",
+                "price": -112,
+                "point": 53.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-10-14T06:38:59Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:59Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -105,
+                "point": 53.5
+              },
+              {
+                "name": "Under",
+                "price": -115,
+                "point": 53.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2025-10-14T06:38:56Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:56Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -110,
+                "point": 53.0
+              },
+              {
+                "name": "Under",
+                "price": -110,
+                "point": 53.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2025-10-14T06:38:25Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:25Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -110,
+                "point": 52.5
+              },
+              {
+                "name": "Under",
+                "price": -110,
+                "point": 52.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2025-10-14T06:38:56Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:56Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -107,
+                "point": 53.0
+              },
+              {
+                "name": "Under",
+                "price": -107,
+                "point": 53.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2025-10-14T06:38:25Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:25Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -110,
+                "point": 53.0
+              },
+              {
+                "name": "Under",
+                "price": -110,
+                "point": 53.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2025-10-14T06:38:55Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:55Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -115,
+                "point": 52.5
+              },
+              {
+                "name": "Under",
+                "price": -110,
+                "point": 52.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2025-10-14T06:39:01Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:39:01Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -110,
+                "point": 52.5
+              },
+              {
+                "name": "Under",
+                "price": -110,
+                "point": 52.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2025-10-14T06:38:45Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:45Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -110,
+                "point": 52.5
+              },
+              {
+                "name": "Under",
+                "price": -110,
+                "point": 52.5
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "7ca953ab786f70b22cabbe4946d330fa",
+    "sport_key": "americanfootball_nfl",
+    "sport_title": "NFL",
+    "commence_time": "2025-10-21T02:01:00Z",
+    "home_team": "Seattle Seahawks",
+    "away_team": "Houston Texans",
+    "bookmakers": [
+      {
+        "key": "draftkings",
+        "title": "DraftKings",
+        "last_update": "2025-10-14T06:39:06Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:39:06Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -118,
+                "point": 40.5
+              },
+              {
+                "name": "Under",
+                "price": -102,
+                "point": 40.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betus",
+        "title": "BetUS",
+        "last_update": "2025-10-14T06:38:56Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:56Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -105,
+                "point": 41.0
+              },
+              {
+                "name": "Under",
+                "price": -115,
+                "point": 41.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "fanduel",
+        "title": "FanDuel",
+        "last_update": "2025-10-14T06:38:59Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:59Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -115,
+                "point": 40.5
+              },
+              {
+                "name": "Under",
+                "price": -105,
+                "point": 40.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "mybookieag",
+        "title": "MyBookie.ag",
+        "last_update": "2025-10-14T06:38:25Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:25Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -110,
+                "point": 41.0
+              },
+              {
+                "name": "Under",
+                "price": -110,
+                "point": 41.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "lowvig",
+        "title": "LowVig.ag",
+        "last_update": "2025-10-14T06:38:56Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:56Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -102,
+                "point": 41.0
+              },
+              {
+                "name": "Under",
+                "price": -113,
+                "point": 41.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betonlineag",
+        "title": "BetOnline.ag",
+        "last_update": "2025-10-14T06:38:25Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:25Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -105,
+                "point": 41.0
+              },
+              {
+                "name": "Under",
+                "price": -115,
+                "point": 41.0
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betrivers",
+        "title": "BetRivers",
+        "last_update": "2025-10-14T06:38:55Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:55Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -115,
+                "point": 40.5
+              },
+              {
+                "name": "Under",
+                "price": -110,
+                "point": 40.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "bovada",
+        "title": "Bovada",
+        "last_update": "2025-10-14T06:39:01Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:39:01Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -110,
+                "point": 40.5
+              },
+              {
+                "name": "Under",
+                "price": -110,
+                "point": 40.5
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "key": "betmgm",
+        "title": "BetMGM",
+        "last_update": "2025-10-14T06:38:45Z",
+        "markets": [
+          {
+            "key": "totals",
+            "last_update": "2025-10-14T06:38:45Z",
+            "outcomes": [
+              {
+                "name": "Over",
+                "price": -110,
+                "point": 41.0
+              },
+              {
+                "name": "Under",
+                "price": -110,
+                "point": 41.0
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
