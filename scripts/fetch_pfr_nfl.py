@@ -81,7 +81,39 @@ def _read_tables_from_html(html: str, header: int = 1):
 
     Wraps the HTML string in a StringIO so pandas reads it as if it were a file.
     """
-    return pd.read_html(StringIO(html), header=header)
+    # First attempt: direct parse
+    try:
+        tables = pd.read_html(StringIO(html), header=header)
+        if tables:
+            return tables
+    except Exception:
+        # fall through to comment-handling
+        pass
+
+    # Fallback: sports-reference sites often include tables inside HTML comments
+    # to avoid simple scraping. Use BeautifulSoup to extract commented sections
+    # that contain <table> and parse them with pandas.
+    try:
+        from bs4 import BeautifulSoup, Comment
+    except Exception:
+        raise
+
+    soup = BeautifulSoup(html, "html.parser")
+    comments = soup.find_all(string=lambda text: isinstance(text, Comment))
+    tables = []
+    for c in comments:
+        if "<table" in c:
+            try:
+                found = pd.read_html(StringIO(str(c)), header=header)
+                tables.extend(found)
+            except Exception:
+                continue
+
+    if not tables:
+        # Last resort: return empty list which callers should handle
+        raise ValueError("No tables found in HTML (including commented sections)")
+
+    return tables
 
 
 def fetch_team_offense_gamelog(team_abbr: str, year: int) -> pd.DataFrame:
@@ -99,14 +131,17 @@ def fetch_team_offense_gamelog(team_abbr: str, year: int) -> pd.DataFrame:
     html = _fetch_html(url)
     tables = _read_tables_from_html(html, header=1)
 
-    # Find candidate tables that include columns we expect
+    # Find candidate tables that include an Opponent column and at least one
+    # plausible score/stat column. PFR team pages use slightly different
+    # column names across seasons, so be flexible here.
     def cols(df):
         try:
             return set(df.columns.astype(str))
         except Exception:
             return set()
 
-    candidates = [t for t in tables if {"Opp", "PF", "PA"}.issubset(cols(t))]
+    score_candidates = {"PF", "PA", "Tm", "Opp.1", "Pts", "Tm.1"}
+    candidates = [t for t in tables if ("Opp" in cols(t) or "Opponent" in cols(t)) and cols(t).intersection(score_candidates)]
     if not candidates:
         raise RuntimeError("Team game log table not found; site layout may have changed.")
 
@@ -125,14 +160,32 @@ def fetch_team_offense_gamelog(team_abbr: str, year: int) -> pd.DataFrame:
     # Normalize opponent column name
     if "Opp" in df.columns:
         df = df.rename(columns={"Opp": "Opponent"})
+    elif "Opponent" in df.columns:
+        pass
 
-    # Determine home/away if present in an 'Unnamed' column or 'Home/Away'
-    home_cols = [c for c in df.columns if "Home" in str(c) or "Away" in str(c) or "Unnamed" in str(c)]
-    if home_cols:
-        # look for a column containing '@' markers
-        col = home_cols[0]
-        df["is_away"] = df[col].astype(str).eq("@").astype(int)
-    else:
+    # Normalize score columns: try to find team score (PF) and opponent score (PA)
+    if "PF" not in df.columns:
+        if "Tm" in df.columns:
+            df = df.rename(columns={"Tm": "PF"})
+        elif "Tm.1" in df.columns:
+            df = df.rename(columns={"Tm.1": "PF"})
+    if "PA" not in df.columns:
+        if "Opp.1" in df.columns:
+            df = df.rename(columns={"Opp.1": "PA"})
+        elif "Pts" in df.columns:
+            # ambiguous, do not overwrite if PF exists
+            if "PF" not in df.columns:
+                df = df.rename(columns={"Pts": "PF"})
+
+    # Determine home/away: search for any column with '@' markers in values
+    is_away = 0
+    for c in df.columns:
+        if df[c].astype(str).str.contains("@", na=False).any():
+            # create normalized is_away column based on '@' marker
+            df["is_away"] = df[c].astype(str).eq("@").astype(int)
+            is_away = 1
+            break
+    if not is_away:
         df["is_away"] = 0
 
     # Select keep columns where available
@@ -148,28 +201,78 @@ def fetch_qb_gamelog(player_id_url: str) -> pd.DataFrame:
     Returns a DataFrame with renamed columns for passing yards/TDs.
     """
     html = _fetch_html(player_id_url)
-    tables = _read_tables_from_html(html, header=1)
+    try:
+        tables = _read_tables_from_html(html, header=1)
+    except Exception:
+        # Fallback: try canonical player page (strip 'gamelog/*' to 'players/X/Name.htm')
+        if player_id_url.endswith('/'):
+            base = player_id_url.rstrip('/')
+        else:
+            base = player_id_url
+        if "/gamelog" in base:
+            canonical = base.split('/gamelog')[0] + '.htm'
+            html = _fetch_html(canonical)
+            tables = _read_tables_from_html(html, header=1)
+        else:
+            raise
 
     candidates = [t for t in tables if {"Cmp", "Att", "Yds", "TD"}.issubset(set(t.columns.astype(str)))]
     if not candidates:
         raise RuntimeError("QB game log table not found.")
     df = candidates[0].copy()
 
-    # Keep only real rows (Rk numeric)
+    # Keep only real rows (Rk numeric) when available
     if "Rk" in df.columns:
-        df = df[df["Rk"].apply(lambda x: str(x).isdigit())]
+        df = df[pd.to_numeric(df["Rk"], errors="coerce").notna()]
 
+    # Normalize date column
     if "Date" in df.columns:
         df["Date"] = pd.to_datetime(df["Date"], errors="coerce")
 
-    # defensive rename if present
-    if "Yds" in df.columns:
-        df = df.rename(columns={"Yds": "QB_PassYds"})
-    if "TD" in df.columns:
-        df = df.rename(columns={"TD": "QB_PassTD"})
+    # flexible column finder (handles duplicates like 'Yds', 'Yds.1', ...)
+    def find_col(df, names):
+        cols = list(df.columns.astype(str))
+        for n in names:
+            # exact
+            if n in cols:
+                return n
+        # prefix match (e.g. 'Yds.1')
+        for n in names:
+            for c in cols:
+                if c.startswith(n + ".") or c == n:
+                    return c
+        return None
 
-    keep = [c for c in ["Date", "G#", "Week", "Opp", "QB_PassYds", "QB_PassTD"] if c in df.columns]
-    return df[keep].reset_index(drop=True)
+    yds_col = find_col(df, ["Yds", "Pass Yds", "PYds"])
+    td_col = find_col(df, ["TD", "Pass TD"])
+    cmp_col = find_col(df, ["Cmp"])
+    att_col = find_col(df, ["Att"])
+
+    if yds_col:
+        df = df.rename(columns={yds_col: "QB_PassYds"})
+    if td_col:
+        df = df.rename(columns={td_col: "QB_PassTD"})
+
+    # Handle alternate game-number columns (G#, Gtm, Gcar, G#)
+    possible_game_cols = ["G#", "Gtm", "Gcar", "Gnum", "Gtm#"]
+    game_col = next((c for c in possible_game_cols if c in df.columns), None)
+    if game_col and game_col != "G#":
+        df = df.rename(columns={game_col: "G#"})
+
+    # Normalize opponent column variants
+    possible_opp = ["Opp", "Opponent", "Unnamed: 6", "Vis", "HomeAway"]
+    opp_col = next((c for c in possible_opp if c in df.columns), None)
+    if opp_col and opp_col != "Opp":
+        df = df.rename(columns={opp_col: "Opp"})
+
+    # Ensure pass yards/td names exist
+    # additional fallbacks already handled by find_col above
+
+    # Pick whatever of the expected columns are present
+    desired = ["Date", "G#", "Week", "Opp", "QB_PassYds", "QB_PassTD", cmp_col, att_col]
+    keep = [c for c in desired if c in df.columns]
+    out = df[keep].reset_index(drop=True)
+    return out
 
 
 def fetch_wr_gamelog(player_id_url: str) -> pd.DataFrame:
@@ -178,7 +281,20 @@ def fetch_wr_gamelog(player_id_url: str) -> pd.DataFrame:
     Returns a DataFrame with receiving yards and TD columns if available.
     """
     html = _fetch_html(player_id_url)
-    tables = _read_tables_from_html(html, header=1)
+    try:
+        tables = _read_tables_from_html(html, header=1)
+    except Exception:
+        # Fallback to canonical player page where many tables are embedded in comments
+        if player_id_url.endswith('/'):
+            base = player_id_url.rstrip('/')
+        else:
+            base = player_id_url
+        if "/gamelog" in base:
+            canonical = base.split('/gamelog')[0] + '.htm'
+            html = _fetch_html(canonical)
+            tables = _read_tables_from_html(html, header=1)
+        else:
+            raise
 
     candidates = [t for t in tables if {"Tgt", "Rec", "Yds", "TD"}.issubset(set(t.columns.astype(str)))]
     if not candidates:
@@ -186,18 +302,48 @@ def fetch_wr_gamelog(player_id_url: str) -> pd.DataFrame:
     df = candidates[0].copy()
 
     if "Rk" in df.columns:
-        df = df[df["Rk"].apply(lambda x: str(x).isdigit())]
+        df = df[pd.to_numeric(df["Rk"], errors="coerce").notna()]
 
     if "Date" in df.columns:
         df["Date"] = pd.to_datetime(df["Date"], errors="coerce")
 
-    if "Yds" in df.columns:
-        df = df.rename(columns={"Yds": "WR_RecYds"})
-    if "TD" in df.columns:
-        df = df.rename(columns={"TD": "WR_RecTD"})
+    # flexible column finder reuse
+    def find_col(df, names):
+        cols = list(df.columns.astype(str))
+        for n in names:
+            if n in cols:
+                return n
+        for n in names:
+            for c in cols:
+                if c.startswith(n + ".") or c == n:
+                    return c
+        return None
 
-    keep = [c for c in ["Date", "G#", "Week", "Opp", "WR_RecYds", "WR_RecTD"] if c in df.columns]
-    return df[keep].reset_index(drop=True)
+    yds_col = find_col(df, ["Yds", "Rec Yds", "RecYds"])
+    td_col = find_col(df, ["TD", "Rec TD"])
+    rec_col = find_col(df, ["Rec"])
+    tgt_col = find_col(df, ["Tgt"])
+
+    if yds_col:
+        df = df.rename(columns={yds_col: "WR_RecYds"})
+    if td_col:
+        df = df.rename(columns={td_col: "WR_RecTD"})
+
+    # Normalize game number and opponent like QB parser
+    possible_game_cols = ["G#", "Gtm", "Gcar", "Gnum", "Gtm#"]
+    game_col = next((c for c in possible_game_cols if c in df.columns), None)
+    if game_col and game_col != "G#":
+        df = df.rename(columns={game_col: "G#"})
+
+    possible_opp = ["Opp", "Opponent", "Unnamed: 6", "Vis", "HomeAway"]
+    opp_col = next((c for c in possible_opp if c in df.columns), None)
+    if opp_col and opp_col != "Opp":
+        df = df.rename(columns={opp_col: "Opp"})
+
+    desired = ["Date", "G#", "Week", "Opp", "WR_RecYds", "WR_RecTD", rec_col, tgt_col]
+    keep = [c for c in desired if c in df.columns]
+    out = df[keep].reset_index(drop=True)
+    return out
 
 
 def save_csv(df: pd.DataFrame, path: str):
