@@ -33,19 +33,31 @@ By quantifying these links, the system generates smarter pick combinations and r
 ## 🧩 Repository Structure
 prizepicks-correlation-ml/
 │
+
 ├── data/
+
 │ ├── samples/ # Demo datasets (team, QB, WR logs)
+
 │ └── mapping/ # Player ID mappings (future expansion)
+
 │
 ├── scripts/
+
 │ ├── fetch_pfr_nfl.py # Fetch team/player data from PFR
+
 │ ├── build_datasets_nfl.py # Clean + merge data into features
+
 │ ├── model_baseline.py # Correlation + Ridge Regression model
+
 │ ├── metrics.py # Calibration + evaluation utilities
+
 │ └── plots_report.py # Generates all visualizations
+
 │
 ├── requirements.txt # Python dependencies
+
 ├── checkpoint1_summary.md # Project progress report
+
 └── README.md # You’re here
 ---
 
@@ -54,6 +66,7 @@ prizepicks-correlation-ml/
 ### 1️⃣ Install dependencies
 ```bash
 python -m pip install -r requirements.txt
+```
 
 2️⃣ Fetch + build demo data
 python -m scripts.fetch_pfr_nfl
