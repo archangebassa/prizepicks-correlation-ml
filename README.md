@@ -63,17 +63,49 @@ prizepicks-correlation-ml/
 
 ## ⚙️ Setup & Usage
 
-### 1️⃣ Install dependencies
+### Installation & Setup
+
+Use the provided Makefile commands to get started:
+
 ```bash
-python -m pip install -r requirements.txt
+# Install dependencies
+make install
+
+# Run tests
+make test
+
+# Run a small backtest (for testing)
+make backtest-tiny
+
+# Run full NFL backtest
+make backtest-nfl
 ```
 
-2️⃣ Fetch + build demo data
+### Manual Commands
+
+```bash
+# 1. Fetch and build data
 python -m scripts.fetch_pfr_nfl
 python -m scripts.build_datasets_nfl
 
-3️⃣ Train baseline model + generate plots
+# 2. Train baseline model
 python -m scripts.model_baseline
+
+# 3. Run backtests with specific parameters
+python -m scripts.backtest_nfl --start 2024-09-01 --end 2024-12-31
+python -m scripts.backtest_nfl --start 2024-09-01 --end 2024-12-31 --market passing_yards
+```
+
+### Backtest Output
+
+Backtests generate several artifacts in `data/cache/backtests/`:
+- `{date_range}_{market}.csv` - Raw backtest data
+- `{date_range}_{market}.json` - Results summary with metrics
+- `{date_range}_{market}_calibration.png` - Calibration curve
+- `{date_range}_{market}_roc.png` - ROC curve
+- `{date_range}_{market}_provider_calibration.png` - Provider comparison curves
+- `{date_range}_{market}_provider_brier_scores.png` - Provider Brier scores
+- `{date_range}_summary.json` - Overall backtest summary
 
 Outputs →
 data/samples/nfl_features.csv – merged dataset

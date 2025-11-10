@@ -1,0 +1,37 @@
+{
+  "metrics": {
+    "n": 1,
+    "brier": 0.25,
+    "logloss": NaN,
+    "pearson": NaN,
+    "pearson_p": NaN,
+    "rmse": 0.5,
+    "mae": 0.5,
+    "auc": NaN,
+    "mean_pred": 0.5,
+    "mean_outcome": 0.0,
+    "ece": 0.5
+  },
+  "ev_summary": {
+    "n": 1,
+    "total_ev": 0.0,
+    "roi_per_bet": 0.0
+  },
+  "kelly_median": 0.0,
+  "ev_bootstrap_median": 0.0,
+  "ev_bootstrap_lo": 0.0,
+  "ev_bootstrap_hi": 0.0,
+  "provider_metrics": {
+    "DraftKings": {
+      "brier_score": 0.25,
+      "n_predictions": 1,
+      "calibration": []
+    }
+  },
+  "plots": {
+    "calibration": "data\\cache\\backtests\\2024-12-01_2024-12-31_passing_yards_calibration.png",
+    "roc": "data\\cache\\backtests\\2024-12-01_2024-12-31_passing_yards_roc.png",
+    "provider_calibration": "data\\cache\\backtests\\2024-12-01_2024-12-31_passing_yards_provider_calibration.png",
+    "provider_brier": "data\\cache\\backtests\\2024-12-01_2024-12-31_passing_yards_provider_brier_scores.png"
+  }
+}

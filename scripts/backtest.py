@@ -53,11 +53,22 @@ def simulate_bankroll(df: pd.DataFrame, stake_strategy: str = 'fixed', stake_val
     return history
 
 
-def run_backtest(on_csv: str, p_col='p_hit', outcome_col='outcome', payout=2.0, n_bootstrap: int = 500):
-    p = Path(on_csv)
-    if not p.exists():
-        raise FileNotFoundError(on_csv)
-    df = pd.read_csv(p)
+def run_backtest(data, p_col='p_hit', outcome_col='outcome', payout=2.0, n_bootstrap: int = 500):
+    """Run backtest on historical data.
+    Args:
+        data: Either a path to a CSV file or a pandas DataFrame
+        p_col: Column name for predicted probabilities
+        outcome_col: Column name for actual outcomes (0/1)
+        payout: Payout multiplier (e.g., 2.0 means double)
+        n_bootstrap: Number of bootstrap samples for CI
+    """
+    if isinstance(data, (str, Path)):
+        p = Path(data)
+        if not p.exists():
+            raise FileNotFoundError(data)
+        df = pd.read_csv(p)
+    else:
+        df = data
     metrics = compute_metrics(df[outcome_col], df[p_col])
     ev = ev_and_roi(df, p_col=p_col, outcome_col=outcome_col, payout=payout)
     # kelly suggestion

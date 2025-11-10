@@ -1,0 +1,7 @@
+{
+  "DraftKings": {
+    "brier_score": 0.25,
+    "n_predictions": 1,
+    "calibration": []
+  }
+}

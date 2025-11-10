@@ -1,9 +1,4 @@
-Season,Week_team,Date_team,Opponent,is_away,PF,PA,Date_qb,G#,Week_qb,Opp,QB_PassYds,QB_PassTD,Cmp,Att,WR_RecYds,WR_RecTD,Rec,Tgt
-2025,1,,Los Angeles Chargers,1,21.0,27.0,2025-09-05,1.0,1.0,LAC,258,1,24,39,454,0,33,43
-2025,2,,Philadelphia Eagles,0,17.0,20.0,2025-09-14,2.0,2.0,PHI,187,1,16,29,1339,7,78,101
-2025,3,,New York Giants,1,22.0,9.0,2025-09-21,3.0,3.0,NYG,224,1,22,37,1220,5,63,83
-2025,4,,Baltimore Ravens,0,37.0,20.0,2025-09-28,4.0,4.0,BAL,270,4,25,37,1364,12,76,104
-2025,5,,Jacksonville Jaguars,1,28.0,31.0,2025-10-06,5.0,5.0,JAX,318,1,29,41,1143,9,61,83
-2025,6,,Detroit Lions,0,30.0,17.0,2025-10-12,6.0,6.0,DET,257,3,22,30,660,4,58,72
-2025,7,,Las Vegas Raiders,0,31.0,0.0,2025-10-19,7.0,7.0,LVR,286,3,26,35,6180,37,369,486
-2025,8,,Washington Commanders,0,28.0,7.0,2025-10-27,8.0,8.0,WAS,299,3,25,34,1142,7,68,90
+Date,QB_PassYds,QB_PassYds_actual,WR_RecYds,WR_RecYds_actual
+2024-09-01,300,280,100,90
+2024-09-08,250,260,80,85
+2024-12-31,400,390,150,140

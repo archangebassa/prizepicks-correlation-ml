@@ -8,3 +8,5 @@ beautifulsoup4
 requests
 pytest
 scikit-learn
+matplotlib
+seaborn

@@ -57,7 +57,15 @@ def compute_metrics(y_true, p_pred) -> Dict:
     out['brier'] = float(brier_score_loss(y, p))
     eps = 1e-15
     p_clip = np.clip(p, eps, 1 - eps)
-    out['logloss'] = float(log_loss(y, p_clip))
+    try:
+        # Handle case where y contains only one label
+        if len(np.unique(y)) == 1:
+            # Can't compute logloss with single class, use NaN
+            out['logloss'] = float('nan')
+        else:
+            out['logloss'] = float(log_loss(y, p_clip, labels=[0, 1]))
+    except Exception:
+        out['logloss'] = float('nan')
     try:
         out['pearson'], out['pearson_p'] = pearsonr(p, y)
     except Exception:
