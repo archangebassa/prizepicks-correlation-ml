@@ -18,7 +18,7 @@ def calibration_by_bin(y_true, p_pred, n_bins=10, strategy='quantile'):
         df['bin'] = pd.qcut(df['p'], n_bins, duplicates='drop')
     else:
         df['bin'] = pd.cut(df['p'], n_bins)
-    res = df.groupby('bin').agg(n=('y', 'size'), p_mean=('p', 'mean'), y_mean=('y', 'mean'))
+    res = df.groupby('bin', observed=False).agg(n=('y', 'size'), p_mean=('p', 'mean'), y_mean=('y', 'mean'))
     return res.reset_index()
 
 

@@ -7,7 +7,7 @@ qualitative takeaways.
 from pathlib import Path
 import json
 import pandas as pd
-from datetime import datetime
+from datetime import datetime, timezone
 
 import scripts.backtest_nfl as bn
 
@@ -65,7 +65,7 @@ def run_baseline(sample_path: str = 'data/samples/nfl_sample.csv', market: str =
 
     with open(report_path, 'w') as r:
         r.write(f"# Baseline Metrics Report\n\n")
-        r.write(f"**Date:** {datetime.utcnow().isoformat()}Z\n\n")
+        r.write(f"**Date:** {datetime.now(timezone.utc).isoformat()}\n\n")
         r.write(f"## Summary (market = {market})\n\n")
         if mae is not None:
             r.write(f"- MAE: {mae}\n")
