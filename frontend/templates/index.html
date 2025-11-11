@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PrizePicks Correlation ML - Bet Predictor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header-content">
+                <h1>🏈 PrizePicks Correlation ML</h1>
+                <p class="subtitle">Data-Driven Bet Analysis & Expected Value Calculator</p>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <!-- Single Bet Section -->
+            <section class="section single-bet">
+                <h2>Single Bet Analysis</h2>
+                <form id="singleBetForm" class="form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="sportsbook">Sportsbook</label>
+                            <select id="sportsbook" name="sportsbook" required>
+                                <option value="">-- Select --</option>
+                                <option value="draftkings">DraftKings</option>
+                                <option value="fanduel">FanDuel</option>
+                                <option value="betmgm">BetMGM</option>
+                                <option value="pointsbet">PointsBet</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="market">Market</label>
+                            <select id="market" name="market" required>
+                                <option value="">-- Select --</option>
+                                <option value="passing_yards">Passing Yards</option>
+                                <option value="receiving_yards">Receiving Yards</option>
+                                <option value="rushing_yards">Rushing Yards</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="player">Player Name</label>
+                            <input type="text" id="player" name="player" placeholder="e.g., Patrick Mahomes" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="projection">Projection</label>
+                            <input type="number" id="projection" name="projection" placeholder="e.g., 300" step="0.1" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="actual">Estimated Value</label>
+                            <input type="number" id="actual" name="actual" placeholder="e.g., 310" step="0.1" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="odds">Odds (American)</label>
+                            <input type="number" id="odds" name="odds" placeholder="e.g., -110" step="1" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="stake">Stake ($)</label>
+                            <input type="number" id="stake" name="stake" placeholder="e.g., 100" step="0.01" value="100">
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Analyze Bet</button>
+                </form>
+
+                <div id="singleResult" class="result-container" style="display:none;">
+                    <div class="result-card">
+                        <h3>Prediction Results</h3>
+                        <div class="result-grid">
+                            <div class="result-item">
+                                <span class="result-label">Probability of Hit</span>
+                                <span class="result-value" id="resultPHit">--</span>
+                                <span class="result-subtext" id="resultPHitPct">--</span>
+                            </div>
+                            <div class="result-item">
+                                <span class="result-label">Implied Probability</span>
+                                <span class="result-value" id="resultImplied">--</span>
+                                <span class="result-subtext" id="resultImpliedPct">--</span>
+                            </div>
+                            <div class="result-item">
+                                <span class="result-label">Expected Value</span>
+                                <span class="result-value" id="resultEV">--</span>
+                                <span class="result-subtext" id="resultEVPct">--</span>
+                            </div>
+                            <div class="result-item">
+                                <span class="result-label">Kelly Criterion</span>
+                                <span class="result-value" id="resultKelly">--</span>
+                                <span class="result-subtext" id="resultKellyPct">--</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="result-card">
+                        <h3>Recommended Action</h3>
+                        <div id="recommendation" class="recommendation">
+                            <!-- Filled by JS -->
+                        </div>
+                    </div>
+                </div>
+
+                <div id="singleError" class="error-container" style="display:none;">
+                    <!-- Error messages go here -->
+                </div>
+            </section>
+
+            <!-- Multi-Leg Section -->
+            <section class="section multi-leg">
+                <h2>Multi-Leg Entry (Parlay)</h2>
+                <p class="section-desc">Combine multiple bets to see joint probability and EV.</p>
+                
+                <div id="legsList" class="legs-list">
+                    <!-- Legs added dynamically -->
+                </div>
+
+                <button type="button" class="btn btn-secondary" id="addLegBtn">+ Add Leg</button>
+                <button type="button" class="btn btn-primary" id="analyzeMultiBtn" style="display:none;">Analyze Parlay</button>
+
+                <div id="multiResult" class="result-container" style="display:none;">
+                    <div class="result-card">
+                        <h3>Parlay Results</h3>
+                        <div class="result-grid">
+                            <div class="result-item">
+                                <span class="result-label">Joint Probability (Independent)</span>
+                                <span class="result-value" id="resultJointProb">--</span>
+                                <span class="result-subtext" id="resultJointProbPct">--</span>
+                            </div>
+                            <div class="result-item">
+                                <span class="result-label">Combined Payout</span>
+                                <span class="result-value" id="resultCombinedPayout">--</span>
+                            </div>
+                            <div class="result-item">
+                                <span class="result-label">Parlay EV</span>
+                                <span class="result-value" id="resultParleyEV">--</span>
+                                <span class="result-subtext" id="resultParleyEVPct">--</span>
+                            </div>
+                            <div class="result-item">
+                                <span class="result-label">Combined Kelly</span>
+                                <span class="result-value" id="resultCombinedKelly">--</span>
+                                <span class="result-subtext" id="resultCombinedKellyPct">--</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Info Section -->
+            <section class="section info">
+                <h2>How It Works</h2>
+                <div class="info-grid">
+                    <div class="info-card">
+                        <h3>📊 Data-Driven</h3>
+                        <p>Uses historical NFL player statistics and sportsbook calibration data to estimate hit probabilities.</p>
+                    </div>
+                    <div class="info-card">
+                        <h3>💰 Expected Value</h3>
+                        <p>Calculates EV by comparing your model's probability to the sportsbook's implied probability from odds.</p>
+                    </div>
+                    <div class="info-card">
+                        <h3>🎲 Kelly Criterion</h3>
+                        <p>Recommends optimal bet size to maximize long-term growth while managing risk.</p>
+                    </div>
+                    <div class="info-card">
+                        <h3>📈 Calibration</h3>
+                        <p>Adjusts predictions based on how well each sportsbook's odds have historically aligned with outcomes.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>&copy; 2025 PrizePicks Correlation ML | CS 4220 @ Georgia Tech</p>
+            <p class="footer-note">For educational purposes. Always gamble responsibly.</p>
+        </footer>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>

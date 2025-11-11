@@ -10,3 +10,7 @@ pytest
 scikit-learn
 matplotlib
 seaborn
+
+# Frontend / Web Framework
+flask
+flask-cors
