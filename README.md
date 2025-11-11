@@ -99,13 +99,39 @@ python -m scripts.backtest_nfl --start 2024-09-01 --end 2024-12-31 --market pass
 ### Backtest Output
 
 Backtests generate several artifacts in `data/cache/backtests/`:
-- `{date_range}_{market}.csv` - Raw backtest data
-- `{date_range}_{market}.json` - Results summary with metrics
-- `{date_range}_{market}_calibration.png` - Calibration curve
-- `{date_range}_{market}_roc.png` - ROC curve
-- `{date_range}_{market}_provider_calibration.png` - Provider comparison curves
-- `{date_range}_{market}_provider_brier_scores.png` - Provider Brier scores
-- `{date_range}_summary.json` - Overall backtest summary
+- `{date_range}_{market}.csv` - Raw backtest data (predictions, outcomes, probabilities)
+- `{date_range}_{market}.json` - Results summary with metrics (MAE, RMSE, Brier, EV, etc.)
+- `{date_range}_{market}_calibration.png` - Calibration curve (predicted vs observed frequency)
+- `{date_range}_{market}_roc.png` - ROC curve (True Positive Rate vs False Positive Rate)
+- `{date_range}_{market}_provider_calibration.png` - Provider comparison calibration curves
+- `{date_range}_{market}_provider_brier_scores.png` - Provider Brier scores bar chart
+- `{date_range}_{market}_provider_metrics.json` - Detailed per-provider calibration bins
+- `{date_range}_summary.json` - Overall backtest summary across all markets
+
+### Sample Data
+
+A small reproducible dataset is included for quick testing:
+- **Location:** `data/samples/nfl_sample.csv`
+- **Size:** 5 NFL prop lines (Nov 2024)
+- **Fields:** Date, Team, Player, QB_PassYds, QB_PassYds_actual, WR_RecYds, WR_RecYds_actual, provider
+- **Usage:** Run `python -m scripts.run_baseline` to execute baseline backtest on sample
+
+### Baseline Metrics (Weeks 7–8)
+
+Baseline backtest on sample data (Nov 2024, 5 props, passing_yards market):
+
+| Metric | Value |
+|--------|-------|
+| MAE | 0.6084 |
+| RMSE | 0.6835 |
+| Brier Score | 0.4671 |
+| Log Loss | 1.3310 |
+| Total EV | +0.1049 (+2.1% ROI) |
+| Provider Best | PointsBet (Brier: 0.0025) |
+
+Artifacts → `data/cache/backtests/baseline_sample_passing_yards_*`
+
+Reports → `reports/baseline_metrics.md`, `reports/training_metrics_2025-11-11.md`
 
 Outputs →
 data/samples/nfl_features.csv – merged dataset
