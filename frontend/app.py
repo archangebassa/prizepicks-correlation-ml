@@ -16,12 +16,26 @@ from pathlib import Path
 
 # Add scripts directory to path
 sys.path.insert(0, str(Path(__file__).parent.parent / 'scripts'))
+sys.path.insert(0, str(Path(__file__).parent))  # Add frontend directory for odds module
+
+# Import scipy for normal distribution
+from scipy.stats import norm
 
 try:
     from metrics import compute_metrics
 except Exception as e:
     print(f"Warning: Could not import metrics: {e}")
     compute_metrics = None
+
+# Import odds module
+try:
+    from odds import get_best_odds, american_to_decimal, american_to_implied_probability, POPULAR_PLAYERS, MARKETS, SPORTSBOOKS
+except Exception as e:
+    print(f"Warning: Could not import odds module: {e}")
+    get_best_odds = None
+    POPULAR_PLAYERS = ['Patrick Mahomes', 'Travis Kelce', 'Isaiah Pacheco']
+    MARKETS = ['passing_yards', 'receiving_yards', 'rushing_yards']
+    SPORTSBOOKS = ['DraftKings', 'FanDuel', 'BetMGM', 'PointsBet']
 
 app = Flask(__name__, template_folder='templates', static_folder='static')
 app.config['JSON_SORT_KEYS'] = False
@@ -66,6 +80,56 @@ def get_markets():
     return jsonify(markets)
 
 
+@app.route('/api/odds', methods=['GET'])
+def get_odds_endpoint():
+    """
+    Get live or mock odds for a player/market combination.
+    
+    Query params:
+    - player: Player name (e.g., "Patrick Mahomes")
+    - market: Market type (e.g., "passing_yards")
+    - sportsbook: Optional specific sportsbook
+    """
+    player = request.args.get('player')
+    market = request.args.get('market')
+    sportsbook = request.args.get('sportsbook')
+    
+    if not player or not market:
+        return jsonify({'error': 'Missing player or market parameter'}), 400
+    
+    try:
+        if get_best_odds:
+            odds = get_best_odds(player, market, sportsbook)
+            return jsonify({'success': True, 'data': odds})
+        else:
+            return jsonify({'success': False, 'error': 'Odds module not available'}), 500
+    except Exception as e:
+        return jsonify({'success': False, 'error': str(e)}), 500
+
+
+@app.route('/api/autocomplete/players', methods=['GET'])
+def autocomplete_players():
+    """Return list of popular players for autocomplete."""
+    query = request.args.get('q', '').lower()
+    if not query:
+        return jsonify(POPULAR_PLAYERS[:10])
+    
+    matches = [p for p in POPULAR_PLAYERS if query in p.lower()]
+    return jsonify(matches[:10])
+
+
+@app.route('/api/autocomplete/markets', methods=['GET'])
+def autocomplete_markets():
+    """Return list of available markets."""
+    return jsonify(MARKETS)
+
+
+@app.route('/api/autocomplete/sportsbooks', methods=['GET'])
+def autocomplete_sportsbooks():
+    """Return list of available sportsbooks."""
+    return jsonify(SPORTSBOOKS)
+
+
 @app.route('/api/predict', methods=['POST'])
 def predict():
     """
@@ -104,7 +168,6 @@ def predict():
             std_dev = projection * 0.15  # Assume 15% std deviation
             if std_dev > 0:
                 # Simplified: assume normal distribution
-                from scipy.stats import norm
                 p_hit = 1 - norm.cdf(0, loc=diff, scale=std_dev)
                 p_hit = max(0.05, min(0.95, p_hit))  # Clip to [0.05, 0.95]
         
