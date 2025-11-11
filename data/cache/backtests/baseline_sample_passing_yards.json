@@ -1,0 +1,113 @@
+{
+  "metrics": {
+    "n": 5,
+    "brier": 0.46712851875460937,
+    "logloss": 1.3309580720039857,
+    "pearson": -0.3422945662032787,
+    "pearson_p": 0.5728438100570287,
+    "rmse": 0.6834680085816814,
+    "mae": 0.6084220977052892,
+    "auc": 0.3333333333333333,
+    "mean_pred": 0.5104924610682537,
+    "mean_outcome": 0.6,
+    "ece": 0.6084220977052893
+  },
+  "ev_summary": {
+    "n": 5,
+    "total_ev": 0.10492461068253811,
+    "roi_per_bet": 0.02098492213650762
+  },
+  "kelly_median": 0.03497487022751278,
+  "ev_bootstrap_median": 0.027979896182010203,
+  "ev_bootstrap_lo": -0.6309346625915329,
+  "ev_bootstrap_hi": 0.658914558773543,
+  "provider_metrics": {
+    "DraftKings": {
+      "brier_score": 0.4112780864586696,
+      "n_predictions": 2,
+      "calibration": [
+        {
+          "bin": "(0.254, 0.281]",
+          "n": 1,
+          "p_mean": 0.25517590840741133,
+          "y_mean": 1.0
+        },
+        {
+          "bin": "(0.281, 0.308]",
+          "n": 0,
+          "p_mean": null,
+          "y_mean": null
+        },
+        {
+          "bin": "(0.308, 0.334]",
+          "n": 0,
+          "p_mean": null,
+          "y_mean": null
+        },
+        {
+          "bin": "(0.334, 0.36]",
+          "n": 0,
+          "p_mean": null,
+          "y_mean": null
+        },
+        {
+          "bin": "(0.36, 0.386]",
+          "n": 0,
+          "p_mean": null,
+          "y_mean": null
+        },
+        {
+          "bin": "(0.386, 0.413]",
+          "n": 0,
+          "p_mean": null,
+          "y_mean": null
+        },
+        {
+          "bin": "(0.413, 0.439]",
+          "n": 0,
+          "p_mean": null,
+          "y_mean": null
+        },
+        {
+          "bin": "(0.439, 0.465]",
+          "n": 0,
+          "p_mean": null,
+          "y_mean": null
+        },
+        {
+          "bin": "(0.465, 0.491]",
+          "n": 0,
+          "p_mean": null,
+          "y_mean": null
+        },
+        {
+          "bin": "(0.491, 0.517]",
+          "n": 1,
+          "p_mean": 0.5174874351137564,
+          "y_mean": 0.0
+        }
+      ]
+    },
+    "FanDuel": {
+      "brier_score": 0.6080864208557079,
+      "n_predictions": 1,
+      "calibration": []
+    },
+    "BetMGM": {
+      "brier_score": 0.9025,
+      "n_predictions": 1,
+      "calibration": []
+    },
+    "PointsBet": {
+      "brier_score": 0.0025000000000000044,
+      "n_predictions": 1,
+      "calibration": []
+    }
+  },
+  "plots": {
+    "calibration": "data\\cache\\backtests\\baseline_sample_passing_yards_calibration.png",
+    "roc": "data\\cache\\backtests\\baseline_sample_passing_yards_roc.png",
+    "provider_calibration": "data\\cache\\backtests\\baseline_sample_passing_yards_provider_calibration.png",
+    "provider_brier": "data\\cache\\backtests\\baseline_sample_passing_yards_provider_brier_scores.png"
+  }
+}

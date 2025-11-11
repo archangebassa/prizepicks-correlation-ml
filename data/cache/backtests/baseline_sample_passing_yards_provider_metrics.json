@@ -1,0 +1,83 @@
+{
+  "DraftKings": {
+    "brier_score": 0.4112780864586696,
+    "n_predictions": 2,
+    "calibration": [
+      {
+        "bin": "(0.254, 0.281]",
+        "n": 1,
+        "p_mean": 0.25517590840741133,
+        "y_mean": 1.0
+      },
+      {
+        "bin": "(0.281, 0.308]",
+        "n": 0,
+        "p_mean": null,
+        "y_mean": null
+      },
+      {
+        "bin": "(0.308, 0.334]",
+        "n": 0,
+        "p_mean": null,
+        "y_mean": null
+      },
+      {
+        "bin": "(0.334, 0.36]",
+        "n": 0,
+        "p_mean": null,
+        "y_mean": null
+      },
+      {
+        "bin": "(0.36, 0.386]",
+        "n": 0,
+        "p_mean": null,
+        "y_mean": null
+      },
+      {
+        "bin": "(0.386, 0.413]",
+        "n": 0,
+        "p_mean": null,
+        "y_mean": null
+      },
+      {
+        "bin": "(0.413, 0.439]",
+        "n": 0,
+        "p_mean": null,
+        "y_mean": null
+      },
+      {
+        "bin": "(0.439, 0.465]",
+        "n": 0,
+        "p_mean": null,
+        "y_mean": null
+      },
+      {
+        "bin": "(0.465, 0.491]",
+        "n": 0,
+        "p_mean": null,
+        "y_mean": null
+      },
+      {
+        "bin": "(0.491, 0.517]",
+        "n": 1,
+        "p_mean": 0.5174874351137564,
+        "y_mean": 0.0
+      }
+    ]
+  },
+  "FanDuel": {
+    "brier_score": 0.6080864208557079,
+    "n_predictions": 1,
+    "calibration": []
+  },
+  "BetMGM": {
+    "brier_score": 0.9025,
+    "n_predictions": 1,
+    "calibration": []
+  },
+  "PointsBet": {
+    "brier_score": 0.0025000000000000044,
+    "n_predictions": 1,
+    "calibration": []
+  }
+}
