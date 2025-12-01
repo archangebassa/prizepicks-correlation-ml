@@ -57,6 +57,12 @@ def index():
     return render_template('index.html')
 
 
+@app.route('/landing')
+def landing():
+    """Render the new SaaS-style landing page for demos."""
+    return render_template('landing.html')
+
+
 @app.route('/api/sportsbooks', methods=['GET'])
 def get_sportsbooks():
     """Return list of available sportsbooks."""
