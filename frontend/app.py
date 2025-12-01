@@ -53,8 +53,16 @@ except Exception as e:
 
 @app.route('/')
 def index():
-    """Render the main bet input page."""
-    return render_template('index.html')
+    """Render the main bet input page (modern React/Tailwind)."""
+    return render_template('index_modern.html')
+
+@app.route('/modern')
+def modern():
+    """Preview the modern React/Tailwind component."""
+    return render_template('modern.html')
+
+
+# removed: landing page route (replaced by modern root view)
 
 
 @app.route('/api/sportsbooks', methods=['GET'])

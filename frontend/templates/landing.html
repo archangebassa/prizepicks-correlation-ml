@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>PrizePicks Correlation ML — Demo</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/landing.css') }}">
+</head>
+<body class="theme-system">
+  <header class="hero">
+    <div class="hero-inner">
+      <h1 class="hero-title">Insightful Bets, Smarter Decisions</h1>
+      <p class="hero-sub">Data-driven probabilities and calibration-adjusted value — built for modern bettors and analysts.</p>
+      <div class="hero-ctas">
+        <a class="btn primary" href="#features">Try Demo</a>
+        <a class="btn ghost" href="/">Open App</a>
+      </div>
+    </div>
+
+    <div class="glass-cards" aria-hidden="true">
+      <div class="card">EV +12.4%<span class="muted">Model</span></div>
+      <div class="card">p(hit) 65%<span class="muted">Mahomes O</span></div>
+      <div class="card">Kelly 6.5%<span class="muted">Sizing</span></div>
+    </div>
+  </header>
+
+  <main>
+    <section id="features" class="features">
+      <h2 class="section-title">Built for quick decisions</h2>
+      <div class="feature-grid">
+        <article class="feature" data-animate>
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2L2 7v6c0 5 5 9 10 9s10-4 10-9V7l-10-5z"/></svg>
+          <h3>Single Bet Analysis</h3>
+          <p>Instant probability, EV, and Kelly recommendations.</p>
+        </article>
+        <article class="feature" data-animate>
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+          <h3>Parlay Support</h3>
+          <p>Combine legs, see joint probability and combined EV.</p>
+        </article>
+        <article class="feature" data-animate>
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 100 20 10 10 0 000-20z"/></svg>
+          <h3>Provider Calibration</h3>
+          <p>Adjust confidence using provider Brier scores.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <script src="{{ url_for('static', filename='js/landing.js') }}"></script>
+</body>
+</html>
