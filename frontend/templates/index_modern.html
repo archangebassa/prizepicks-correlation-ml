@@ -14,12 +14,11 @@
       </div>
     </main>
 
-    <!-- React + Babel for quick local preview (not for production) -->
+    <!-- React (UMD build only, no JSX/Babel) -->
     <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
-    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 
-    <!-- App code (JSX compiled in-browser for preview) -->
-    <script type="text/babel" src="/static/js/react-home.jsx"></script>
+    <!-- App code (plain React.createElement, no JSX/Babel) -->
+    <script src="/static/js/react-home.jsx"></script>
   </body>
 </html>
