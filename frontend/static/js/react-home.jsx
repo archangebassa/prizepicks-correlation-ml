@@ -79,7 +79,10 @@
 
     return React.createElement('div', {className: 'space-y-3'},
       React.createElement('div', {className: 'text-slate-300 text-sm'}, 'Probability'),
-      React.createElement('div', {className: 'text-3xl font-extrabold text-white'}, (isNaN(p)? 'N/A' : (p*100).toFixed(1)+'%') + ' ' + React.createElement('span', {className: 'text-sm font-medium text-slate-400'}, '(implied ' + (isNaN(implied)? 'N/A' : (implied*100).toFixed(1)+'%') + ')')),
+      React.createElement('div', {className: 'text-3xl font-extrabold text-white'},
+        isNaN(p) ? 'N/A' : (p*100).toFixed(1)+'%',
+        React.createElement('span', {className: 'ml-3 text-sm font-medium text-slate-400'}, '(implied ' + (isNaN(implied)? 'N/A' : (implied*100).toFixed(1)+'%') + ')')
+      ),
       React.createElement('div', {className: 'pt-2 border-t border-white/6'}),
       React.createElement('div', {className: 'flex justify-between items-center'},
         React.createElement('div', {},
