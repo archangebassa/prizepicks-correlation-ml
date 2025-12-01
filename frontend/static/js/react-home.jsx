@@ -1,5 +1,3 @@
-const { useState, useEffect } = React;
-
 function Input({label, id, value, onChange, type='text', placeholder='', error}){
   return (
     <div className="mb-3">
@@ -79,13 +77,13 @@ function Summary({result, isParlay}){
 }
 
 function App(){
-  const [isParlay, setIsParlay] = useState(false);
-  const [legs, setLegs] = useState([{player:'', market:'passing_yards', p_hit:'', odds:''}]);
-  const [errors, setErrors] = useState({});
-  const [loading, setLoading] = useState(false);
-  const [result, setResult] = useState(null);
+  const [isParlay, setIsParlay] = React.useState(false);
+  const [legs, setLegs] = React.useState([{player:'', market:'passing_yards', p_hit:'', odds:''}]);
+  const [errors, setErrors] = React.useState({});
+  const [loading, setLoading] = React.useState(false);
+  const [result, setResult] = React.useState(null);
 
-  useEffect(()=>{ const el = document.querySelector('input'); if(el) el.focus(); },[]);
+  React.useEffect(()=>{ const el = document.querySelector('input'); if(el) el.focus(); },[]);
 
   function updateLeg(i, next){
     setLegs(prev=> prev.map((l,idx)=> idx===i? next: l));
