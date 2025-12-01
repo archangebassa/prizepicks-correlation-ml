@@ -27,8 +27,7 @@
               <p class="mt-4 text-slate-300 max-w-2xl mx-auto">Data-driven probabilities with calibration-adjusted confidence — optimized for quick, confident decisions.</p>
 
               <div class="mt-8 flex items-center justify-center gap-4">
-                <a class="inline-flex items-center gap-3 px-6 py-3 rounded-xl bg-gradient-to-r from-indigo-500 to-cyan-400 text-white font-semibold shadow-xl transform transition hover:-translate-y-1 hover:shadow-2xl" href="/landing">Try Demo</a>
-                <a class="inline-flex items-center gap-3 px-5 py-3 rounded-xl border border-white/10 text-white/90 hover:bg-white/3 transition" href="/">Open App</a>
+                <a class="inline-flex items-center gap-3 px-6 py-3 rounded-xl bg-gradient-to-r from-indigo-500 to-cyan-400 text-white font-semibold shadow-xl transform transition hover:-translate-y-1 hover:shadow-2xl" href="/">Try Demo</a>
               </div>
             </div>
 
