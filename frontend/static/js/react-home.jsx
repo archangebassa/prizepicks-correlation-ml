@@ -48,19 +48,35 @@
 
   const Summary = ({result, isParlay}) => {
     if(!result) return React.createElement('div', {className: 'text-slate-400'}, 'No calculation yet — fill and submit.');
+    // Helper to safely read nested values
+    const get = (obj, path, fallback=null) => {
+      try{
+        return path.split('.').reduce((o,k)=> (o && k in o) ? o[k] : undefined, obj) ?? fallback;
+      }catch(e){ return fallback; }
+    };
+
     if(isParlay){
-      const jp = result.joint_probability_independent ?? result.joint_probability ?? null;
-      const ev = result.combined_ev ?? null;
+      // API may return combined values under `multi_leg` or at root
+      const multi = result.multi_leg ?? result.multiLeg ?? result;
+      const jp = get(multi, 'joint_probability_independent', get(multi, 'joint_probability', null));
+      const ev = get(multi, 'combined_ev', get(multi, 'combined_ev_pct', null));
+      const odds = get(multi, 'combined_decimal_odds', null);
       return React.createElement('div', {className: 'space-y-3'},
         React.createElement('div', {className: 'text-slate-300 text-sm'}, 'Joint Probability'),
         React.createElement('div', {className: 'text-2xl font-extrabold text-white'}, jp!==null? (jp*100).toFixed(1)+'%':'N/A'),
-        React.createElement('div', {className: 'text-sm text-slate-400'}, 'Combined EV: ' + (ev!==null? (ev>=0? '+':'')+Number(ev).toFixed(3) : 'N/A'))
+        React.createElement('div', {className: 'text-sm text-slate-400'}, 'Combined EV: ' + (ev!==null? (ev>=0? '+':'')+Number(ev).toFixed(3) : 'N/A')),
+        React.createElement('div', {className: 'text-sm text-slate-400'}, 'Combined Odds: ' + (odds!==null? Number(odds).toFixed(2) : 'N/A'))
       );
     }
-    const p = Number(result.p_hit ?? result.probability ?? NaN);
-    const implied = Number(result.implied_prob ?? result.implied_probability ?? NaN);
-    const ev = Number(result.ev ?? NaN);
-    const k = Number(result.kelly_fraction ?? result.kelly ?? 0);
+
+    // Single bet: prediction fields usually live under result.prediction and valuation under result.valuation
+    const pred = result.prediction ?? result;
+    const val = result.valuation ?? result;
+    const p = Number(get(pred, 'p_hit', get(pred, 'probability', get(result, 'p_hit', NaN))));
+    const implied = Number(get(pred, 'implied_prob', get(pred, 'implied_probability', get(result, 'implied_prob', NaN))));
+    const ev = Number(get(val, 'ev', get(result, 'ev', NaN)));
+    const k = Number(get(val, 'kelly_fraction', get(result, 'kelly_fraction', get(result, 'kelly', 0))));
+
     return React.createElement('div', {className: 'space-y-3'},
       React.createElement('div', {className: 'text-slate-300 text-sm'}, 'Probability'),
       React.createElement('div', {className: 'text-3xl font-extrabold text-white'}, (isNaN(p)? 'N/A' : (p*100).toFixed(1)+'%') + ' ' + React.createElement('span', {className: 'text-sm font-medium text-slate-400'}, '(implied ' + (isNaN(implied)? 'N/A' : (implied*100).toFixed(1)+'%') + ')')),
