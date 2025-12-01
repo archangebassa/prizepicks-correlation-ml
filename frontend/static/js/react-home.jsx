@@ -129,6 +129,7 @@
     const [errors, setErrors] = React.useState({});
     const [loading, setLoading] = React.useState(false);
     const [result, setResult] = React.useState(null);
+    const [showRaw, setShowRaw] = React.useState(false);
 
     React.useEffect(()=>{ const el = document.querySelector('input'); if(el) el.focus(); },[]);
 
@@ -199,7 +200,8 @@
                 React.createElement('option', {value: 'betmgm'}, 'BetMGM'),
                 React.createElement('option', {value: 'caesars'}, 'Caesars'),
                 React.createElement('option', {value: 'demo'}, 'Demo (No Real Data)')
-              )
+              ),
+              React.createElement('p', {className: 'text-xs text-slate-400 mt-2'}, 'Note: Sportsbook selection is for tracking only. Probability is calculated from your projection and line inputs.')
             ),
             React.createElement('div', {className: 'space-y-3'},
               legs.map((leg, i)=> 
@@ -239,7 +241,17 @@
         ),
         React.createElement('div', {className: 'mt-6 pt-6 border-t border-white/6 space-y-3'},
           React.createElement('h4', {className: 'text-sm font-semibold text-cyan-300'}, 'How Confidence Works'),
-          React.createElement('p', {className: 'text-xs text-slate-300 leading-relaxed'}, 'Confidence measures how certain the model is about a prediction based on historical data and calibration. Higher confidence = model is very certain (whether the bet is good or bad). Lower confidence = model has less certainty in the prediction, which can indicate higher uncertainty and potentially better value if odds are right.')
+          React.createElement('p', {className: 'text-xs text-slate-300 leading-relaxed'}, 'Confidence measures how certain the model is about a prediction based on historical data and calibration. Higher confidence = model is very certain (whether the bet is good or bad). Lower confidence = model has less certainty in the prediction, which can indicate higher uncertainty and potentially better value if odds are right.'),
+          React.createElement('div', {className: 'pt-3'},
+            React.createElement('h5', {className: 'text-sm font-semibold text-cyan-300 mb-2'}, 'EV & Kelly (quick)'),
+            React.createElement('p', {className: 'text-xs text-slate-300'}, React.createElement('strong', {}, 'Expected Value (EV): '), 'Average return per unit wagered. Positive EV means long-term profit.'),
+          React.createElement('p', {className: 'text-xs text-slate-300'}, React.createElement('strong', {}, 'Kelly fraction: '), 'Recommended fraction of bankroll to wager (uses model p and odds). Full Kelly maximizes growth but can be aggressive; consider using a fraction (e.g., half-Kelly).')
+          ),
+          React.createElement('div', {className: 'flex items-center gap-3 mt-2'},
+            React.createElement('button', {type: 'button', onClick: () => setShowRaw(s => !s), className: 'text-sm px-3 py-2 rounded border border-white/6 bg-slate-700 text-slate-100'}, showRaw? 'Hide raw response':'Show raw response'),
+            React.createElement('button', {type: 'button', onClick: ()=> { navigator.clipboard && navigator.clipboard.writeText(JSON.stringify(result || {}, null, 2)); }, className: 'text-sm px-3 py-2 rounded border border-white/6 bg-slate-700 text-slate-100'}, 'Copy JSON')
+          ),
+          showRaw && React.createElement('pre', {className: 'mt-3 p-3 bg-black/30 rounded text-xs overflow-auto', style: {maxHeight: '240px'}}, JSON.stringify(result, null, 2))
         )
       )
     );
