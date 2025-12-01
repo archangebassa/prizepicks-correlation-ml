@@ -1,0 +1,47 @@
+/* modern-demo.css - override styles for landing + demo page
+   - solid dark-blue bottom section
+   - ensure feature icons visible with circular background
+   - staggered reveal + subtle float for feature tiles
+   - hide theme toggle (we removed toggle control)
+*/
+
+/* Force landing / demo bottom to a consistent dark-blue */
+.features{
+  background: linear-gradient(180deg, rgba(3,10,24,0.96) 0%, rgba(3,10,24,1) 100%) !important;
+  padding: 4rem 1rem !important;
+}
+
+/* Feature cards: make icons visible and add floating reveal */
+.feature{
+  background: rgba(10,18,32,0.6) !important;
+  border: 1px solid rgba(255,255,255,0.03) !important;
+  box-shadow: 0 10px 30px rgba(2,6,23,0.6) !important;
+  padding: 1.5rem !important;
+  border-radius: 14px !important;
+  color: var(--text) !important;
+}
+
+.feature .icon{
+  display:inline-block !important;
+  width:48px !important;
+  height:48px !important;
+  padding:8px !important;
+  border-radius:50% !important;
+  background: rgba(6,95,205,0.12) !important;
+  color: var(--accent-2) !important;
+  margin-bottom: .75rem !important;
+}
+
+/* Reveal + float */
+.feature{transform:translateY(18px);opacity:0;transition:transform .5s cubic-bezier(.2,.9,.2,1),opacity .45s ease,box-shadow .3s ease}
+.feature.show{transform:translateY(0);opacity:1}
+.feature:hover{transform:translateY(-6px);box-shadow:0 20px 60px rgba(2,6,23,0.6)}
+
+/* Hide theme toggle if present */
+#theme-toggle{display:none !important}
+
+/* Ensure the bottom-most page area stays dark-blue rather than black */
+footer, .site-footer{background: linear-gradient(180deg, rgba(3,10,24,1) 0%, rgba(1,6,12,1) 100%) !important}
+
+/* Make glass-cards slightly more visible on dark background */
+.glass-cards .card{background: linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.02)) !important}
