@@ -75,7 +75,32 @@
     const p = Number(get(pred, 'p_hit', get(pred, 'probability', get(result, 'p_hit', NaN))));
     const implied = Number(get(pred, 'implied_prob', get(pred, 'implied_probability', get(result, 'implied_prob', NaN))));
     const ev = Number(get(val, 'ev', get(result, 'ev', NaN)));
-    const k = Number(get(val, 'kelly_fraction', get(result, 'kelly_fraction', get(result, 'kelly', 0))));
+    let k = Number(get(val, 'kelly_fraction', get(result, 'kelly_fraction', get(result, 'kelly', NaN))));
+
+    // If backend didn't return a Kelly fraction, compute a safe fallback using decimal odds and p
+    const parseDecimalOdds = (od) => {
+      if(od===undefined || od===null) return NaN;
+      const n = Number(od);
+      if(isNaN(n)) return NaN;
+      // If already decimal odds (e.g., 1.9, 2.5), return as-is
+      if(n > 1.05 && n < 1000) return n;
+      // If American odds provided (e.g., -110 or 150), convert
+      if(n <= -100) return 1 + (100/Math.abs(n));
+      if(n >= 100) return 1 + (n/100);
+      return NaN;
+    };
+
+    const decimalFromVal = Number(get(val, 'decimal_odds', get(result, 'decimal_odds', NaN)));
+    const decimalFromPred = Number(get(pred, 'decimal_odds', get(pred, 'odds', NaN)));
+    const rawOdds = !isNaN(decimalFromVal) ? decimalFromVal : (!isNaN(decimalFromPred) ? decimalFromPred : get(pred,'odds', get(result,'odds', NaN)));
+    const decimalOdds = !isNaN(decimalFromVal) && decimalFromVal>0 ? decimalFromVal : parseDecimalOdds(rawOdds);
+
+    if((isNaN(k) || k===0) && !isNaN(p) && !isNaN(decimalOdds) && decimalOdds>1){
+      const b = decimalOdds - 1; // net payout
+      // Kelly formula for decimal odds: (p*D - 1) / (D - 1)
+      const kellyCalc = ((p * decimalOdds) - 1) / b;
+      k = isNaN(kellyCalc) ? NaN : Math.max(0, kellyCalc);
+    }
 
     return React.createElement('div', {className: 'space-y-3'},
       React.createElement('div', {className: 'text-slate-300 text-sm'}, 'Probability'),
