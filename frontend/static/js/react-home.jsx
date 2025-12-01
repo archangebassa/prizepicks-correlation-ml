@@ -11,29 +11,38 @@
     );
 
   const LegRow = ({index, leg, onChange, onRemove}) =>
-    React.createElement('div', {className: 'grid grid-cols-12 gap-3 items-end'},
-      React.createElement('div', {className: 'col-span-5'},
-        React.createElement('label', {className: 'block text-sm text-slate-200 mb-1'}, 'Player'),
-        React.createElement('input', {value: leg.player, onChange: e => onChange(index, {...leg, player: e.target.value}), className: 'w-full rounded-lg px-3 py-2 bg-slate-800 text-slate-100', placeholder: 'Player name'})
-      ),
-      React.createElement('div', {className: 'col-span-3'},
-        React.createElement('label', {className: 'block text-sm text-slate-200 mb-1'}, 'Market'),
-        React.createElement('select', {value: leg.market, onChange: e => onChange(index, {...leg, market: e.target.value}), className: 'w-full rounded-lg px-3 py-2 bg-slate-800 text-slate-100'},
-          React.createElement('option', {value: 'passing_yards'}, 'Passing'),
-          React.createElement('option', {value: 'receiving_yards'}, 'Receiving'),
-          React.createElement('option', {value: 'rushing_yards'}, 'Rushing')
+    React.createElement('div', {className: 'space-y-3'},
+      React.createElement('div', {className: 'grid grid-cols-1 md:grid-cols-3 gap-3'},
+        React.createElement('div', {},
+          React.createElement('label', {className: 'block text-sm text-slate-200 mb-1'}, 'Player'),
+          React.createElement('input', {value: leg.player, onChange: e => onChange(index, {...leg, player: e.target.value}), className: 'w-full rounded-lg px-3 py-2 bg-slate-800 text-slate-100', placeholder: 'e.g. Patrick Mahomes'})
+        ),
+        React.createElement('div', {},
+          React.createElement('label', {className: 'block text-sm text-slate-200 mb-1'}, 'Market'),
+          React.createElement('select', {value: leg.market, onChange: e => onChange(index, {...leg, market: e.target.value}), className: 'w-full rounded-lg px-3 py-2 bg-slate-800 text-slate-100'},
+            React.createElement('option', {value: 'passing_yards'}, 'Passing Yards'),
+            React.createElement('option', {value: 'receiving_yards'}, 'Receiving Yards'),
+            React.createElement('option', {value: 'rushing_yards'}, 'Rushing Yards')
+          )
+        ),
+        React.createElement('div', {},
+          React.createElement('label', {className: 'block text-sm text-slate-200 mb-1'}, 'Odds'),
+          React.createElement('input', {value: leg.odds, onChange: e => onChange(index, {...leg, odds: e.target.value}), className: 'w-full rounded-lg px-3 py-2 bg-slate-800 text-slate-100', placeholder: 'e.g. -110'})
         )
       ),
-      React.createElement('div', {className: 'col-span-2'},
-        React.createElement('label', {className: 'block text-sm text-slate-200 mb-1'}, 'p_hit'),
-        React.createElement('input', {value: leg.p_hit, onChange: e => onChange(index, {...leg, p_hit: e.target.value}), className: 'w-full rounded-lg px-3 py-2 bg-slate-800 text-slate-100', placeholder: '0.65'})
+      React.createElement('div', {className: 'grid grid-cols-1 md:grid-cols-2 gap-3 bg-slate-900/40 p-3 rounded-lg border border-white/3'},
+        React.createElement('div', {},
+          React.createElement('label', {className: 'block text-xs text-slate-300 mb-1'}, 'Projection'),
+          React.createElement('input', {value: leg.projection, onChange: e => onChange(index, {...leg, projection: e.target.value}), className: 'w-full rounded-lg px-3 py-2 bg-slate-800 text-slate-100 text-sm', placeholder: 'Model forecast'})
+        ),
+        React.createElement('div', {},
+          React.createElement('label', {className: 'block text-xs text-slate-300 mb-1'}, 'Actual/Line'),
+          React.createElement('input', {value: leg.actual_or_estimate, onChange: e => onChange(index, {...leg, actual_or_estimate: e.target.value}), className: 'w-full rounded-lg px-3 py-2 bg-slate-800 text-slate-100 text-sm', placeholder: 'Sportsbook line'})
+        )
       ),
-      React.createElement('div', {className: 'col-span-1'},
-        React.createElement('label', {className: 'block text-sm text-slate-200 mb-1'}, 'Odds'),
-        React.createElement('input', {value: leg.odds, onChange: e => onChange(index, {...leg, odds: e.target.value}), className: 'w-full rounded-lg px-2 py-2 bg-slate-800 text-slate-100', placeholder: '-110'})
-      ),
-      React.createElement('div', {className: 'col-span-1'},
-        React.createElement('button', {type: 'button', onClick: () => onRemove(index), className: 'text-rose-400 hover:text-rose-300'}, '✕')
+      React.createElement('div', {className: 'flex items-center justify-between'},
+        React.createElement('div', {className: 'text-xs text-slate-400'}, 'Probability: ' + (leg.projection && leg.actual_or_estimate ? ((Number(leg.actual_or_estimate) / (Number(leg.projection) + Number(leg.actual_or_estimate))) * 100).toFixed(1) + '%' : 'N/A')),
+        React.createElement('button', {type: 'button', onClick: () => onRemove(index), className: 'text-rose-400 hover:text-rose-300 text-sm'}, '✕ Remove')
       )
     );
 
@@ -71,7 +80,8 @@
 
   function App(){
     const [isParlay, setIsParlay] = React.useState(false);
-    const [legs, setLegs] = React.useState([{player:'', market:'passing_yards', p_hit:'', odds:''}]);
+    const [sportsbook, setSportsbook] = React.useState('draftkings');
+    const [legs, setLegs] = React.useState([{player:'', market:'passing_yards', projection:'', actual_or_estimate:'', odds:''}]);
     const [errors, setErrors] = React.useState({});
     const [loading, setLoading] = React.useState(false);
     const [result, setResult] = React.useState(null);
@@ -80,14 +90,16 @@
 
     function updateLeg(i, next){ setLegs(prev=> prev.map((l,idx)=> idx===i? next: l)); }
     function removeLeg(i){ setLegs(prev=> prev.filter((_,idx)=> idx!==i)); }
-    function addLeg(){ setLegs(prev=> [...prev, {player:'', market:'passing_yards', p_hit:'', odds:''}]); }
+    function addLeg(){ setLegs(prev=> [...prev, {player:'', market:'passing_yards', projection:'', actual_or_estimate:'', odds:''}]); }
 
     function validate(){
       const e = {};
       legs.forEach((l,i)=>{
         if(!l.player) e['player'+i] = 'Player required';
-        if(isParlay){ if(l.p_hit==='' || isNaN(Number(l.p_hit))) e['ph'+i]='p_hit numeric'; }
-        else { if(l.odds==='' || isNaN(Number(l.odds))) e['odds'+i]='Odds numeric'; }
+        if(!l.market) e['market'+i] = 'Market required';
+        if(l.projection==='' || isNaN(Number(l.projection))) e['proj'+i]='Projection required';
+        if(l.actual_or_estimate==='' || isNaN(Number(l.actual_or_estimate))) e['actual'+i]='Actual/Line required';
+        if(l.odds==='' || isNaN(Number(l.odds))) e['odds'+i]='Odds required';
       });
       setErrors(e); return Object.keys(e).length===0;
     }
@@ -98,12 +110,21 @@
       setLoading(true); setResult(null);
       try{
         if(isParlay && legs.length>1){
-          const body = { legs: legs.map(l=>({player:l.player, market:l.market, p_hit: Number(l.p_hit), odds: Number(l.odds)})), correlation_matrix: null };
+          const body = { 
+            legs: legs.map(l=>({
+              player:l.player, 
+              market:l.market, 
+              projection: Number(l.projection),
+              actual_or_estimate: Number(l.actual_or_estimate),
+              odds: Number(l.odds)
+            })), 
+            correlation_matrix: null 
+          };
           const r = await fetch('/api/multi-leg',{method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(body)});
           const data = await r.json(); setResult(data);
         } else {
           const l = legs[0];
-          const body = { sportsbook:'demo', market:l.market, player:l.player, projection: l.projection? Number(l.projection): null, odds: Number(l.odds||0), correlations: [] };
+          const body = { sportsbook: sportsbook, market:l.market, player:l.player, projection: Number(l.projection), actual_or_estimate: Number(l.actual_or_estimate), odds: Number(l.odds), correlations: [] };
           const r = await fetch('/api/predict',{method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(body)});
           const data = await r.json(); setResult(data);
         }
@@ -126,6 +147,16 @@
             )
           ),
           React.createElement('form', {className: 'mt-6', onSubmit: handleSubmit},
+            React.createElement('div', {className: 'mb-6 p-4 bg-cyan-900/30 border border-cyan-500/20 rounded-lg'},
+              React.createElement('label', {className: 'block text-sm font-medium text-cyan-300 mb-2'}, 'Sportsbook'),
+              React.createElement('select', {value: sportsbook, onChange: e => setSportsbook(e.target.value), className: 'w-full rounded-lg px-4 py-2 bg-slate-800 text-slate-100 border border-cyan-500/20'},
+                React.createElement('option', {value: 'draftkings'}, 'DraftKings'),
+                React.createElement('option', {value: 'fanduel'}, 'FanDuel'),
+                React.createElement('option', {value: 'betmgm'}, 'BetMGM'),
+                React.createElement('option', {value: 'caesars'}, 'Caesars'),
+                React.createElement('option', {value: 'demo'}, 'Demo (No Real Data)')
+              )
+            ),
             React.createElement('div', {className: 'space-y-3'},
               legs.map((leg, i)=> 
                 React.createElement('div', {key: i, className: 'p-3 bg-slate-900/30 rounded-lg border border-white/6'},
@@ -138,7 +169,7 @@
             React.createElement('div', {className: 'flex items-center gap-3 mt-4'},
               React.createElement('button', {type: 'button', onClick: addLeg, className: 'px-4 py-2 rounded-lg bg-white/6 text-white'}, 'Add Leg'),
               React.createElement('button', {type: 'submit', className: 'inline-flex items-center gap-3 px-5 py-3 rounded-xl bg-gradient-to-r from-indigo-500 to-cyan-400 text-white font-semibold shadow', disabled: loading}, loading? 'Working...': (isParlay? 'Analyze Parlay':'Analyze Bet')),
-              React.createElement('button', {type: 'button', onClick: ()=>{ setLegs([{player:'', market:'passing_yards', p_hit:'', odds:''}]); setErrors({}); setResult(null); }, className: 'px-4 py-2 rounded-lg border border-white/8 text-slate-300'}, 'Reset')
+              React.createElement('button', {type: 'button', onClick: ()=>{ setLegs([{player:'', market:'passing_yards', projection:'', actual_or_estimate:'', odds:''}]); setErrors({}); setResult(null); }, className: 'px-4 py-2 rounded-lg border border-white/8 text-slate-300'}, 'Reset')
             ),
             errors.form && React.createElement('div', {className: 'text-rose-400 mt-3'}, errors.form)
           )
@@ -161,6 +192,10 @@
         React.createElement('h4', {className: 'text-slate-400 text-sm'}, 'Summary'),
         React.createElement('div', {className: 'mt-4'},
           Summary({result: result, isParlay: isParlay && legs.length>1})
+        ),
+        React.createElement('div', {className: 'mt-6 pt-6 border-t border-white/6 space-y-3'},
+          React.createElement('h4', {className: 'text-sm font-semibold text-cyan-300'}, 'How Confidence Works'),
+          React.createElement('p', {className: 'text-xs text-slate-300 leading-relaxed'}, 'Confidence measures how certain the model is about a prediction based on historical data and calibration. Higher confidence = model is very certain (whether the bet is good or bad). Lower confidence = model has less certainty in the prediction, which can indicate higher uncertainty and potentially better value if odds are right.')
         )
       )
     );
